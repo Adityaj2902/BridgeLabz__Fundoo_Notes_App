@@ -1,17 +1,24 @@
-const express = require('express');
-const { registerUser } = require('../controllers/userController');
-const { loginUser } = require('../controllers/userController');
 
+const express = require('express');
+const { registerUser, loginUser } = require('../controllers/userController');
+const { registerValidation, loginValidation } = require('../validators/user'); // path to validation schemas
+const Joi = require('joi');
 
 const router = express.Router();
 
+// Middleware for Joi validation
+const validate = (schema) => (req, res, next) => {
+    const { error } = schema.validate(req.body);
+    if (error) {
+        return res.status(400).json({ errors: error.details });
+    }
+    next();
+};
+
 // Register User
+router.post('/register', validate(registerValidation), registerUser);
 
-router.post('/register', registerUser);
-
-// Login route
-
-router.post('/login', loginUser);
-
+// Login User
+router.post('/login', validate(loginValidation), loginUser);
 
 module.exports = router;
