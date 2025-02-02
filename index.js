@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const dotenv = require('dotenv');
 const authRoutes = require('./routes/UserRoutes');
-const notes = require('./routes/notesRoute');
+const noteRoutes = require('./routes/notesRoutes');
 
 
 // Initialize dotenv for environment variables
@@ -18,7 +18,7 @@ app.use(cors());
 
 // Routes
 app.use('/api/auth', authRoutes);
-// app.use('/api/notes',notes);
+app.use('/api/', noteRoutes); // Set up routes
 
 
 
@@ -36,3 +36,5 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
+
+
