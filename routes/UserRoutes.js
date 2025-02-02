@@ -6,7 +6,6 @@ const Joi = require('joi');
 
 const router = express.Router();
 
-// Middleware for Joi validation
 const validate = (schema) => (req, res, next) => {
     const { error } = schema.validate(req.body);
     if (error) {

@@ -1,5 +1,7 @@
 const loginService = require('../services/userService');
 const registerService = require('../services/userService');
+const jwt = require('jsonwebtoken');
+
 
 // Login user
 const loginUser = async (req, res) => {
@@ -13,6 +15,11 @@ const loginUser = async (req, res) => {
     res.status(200).json({
       message: "Login successful",
     });
+
+    // Generate JWT token after successful login
+    const payload = { userId: user._id }; 
+    const token = jwt.sign(payload, process.env.JWT_SECRET, { expiresIn: '1h' }); 
+
   } catch (error) {
     console.error("Error logging in user:", error.message);
     res.status(400).json({ message: error.message });

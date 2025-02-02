@@ -4,6 +4,8 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const dotenv = require('dotenv');
 const authRoutes = require('./routes/UserRoutes');
+const notes = require('./routes/notesRoute');
+
 
 // Initialize dotenv for environment variables
 dotenv.config();
@@ -16,6 +18,8 @@ app.use(cors());
 
 // Routes
 app.use('/api/auth', authRoutes);
+// app.use('/api/notes',notes);
+
 
 
 
