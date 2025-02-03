@@ -15,8 +15,10 @@ const loginUser = async (email, password) => {
     throw new Error("Invalid email or password");
   }
 
-  const payload = { userId: user._id };  
-  const token = jwt.sign(payload, process.env.JWT_SECRET, { expiresIn: '1h' }); 
+
+  // Generate a JWT token
+  const payload = { userId: user._id };  // Add user-specific data to the payload
+  const token = jwt.sign(payload, process.env.JWT_SECRET, { expiresIn: '1h' });
 
   return token;
 };

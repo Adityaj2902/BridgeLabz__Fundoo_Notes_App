@@ -1,6 +1,6 @@
-// server.js
 const express = require('express');
 const mongoose = require('mongoose');
+const jwt = require('jsonwebtoken');
 const cors = require('cors');
 const dotenv = require('dotenv');
 const authRoutes = require('./routes/UserRoutes');
@@ -19,7 +19,9 @@ app.use(cors());
 // Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/', noteRoutes); // Set up routes
-
+// app.get('/protected', verifyToken, (req, res) => {
+//   res.json({ message: 'Protected data', user: req.user });
+// });
 
 
 
@@ -36,5 +38,4 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
-
 
