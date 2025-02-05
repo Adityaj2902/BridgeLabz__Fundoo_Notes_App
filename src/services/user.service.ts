@@ -56,3 +56,12 @@ export const loginUser = async (userData: any) => {
     }
   };
 };
+
+export const findUserByEmail = async (email: string) => {
+  return await User.findOne({ email });
+};
+
+export const updateUserPassword = async (email: string, newPassword: string) => {
+  const hashedPassword = await bcrypt.hash(newPassword, 10);
+  await User.updateOne({ email }, { password: hashedPassword });
+};
