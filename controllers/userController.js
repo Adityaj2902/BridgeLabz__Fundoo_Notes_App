@@ -36,7 +36,7 @@ const loginUser = async (req, res) => {
 
     // Generate JWT token after successful login
     const payload = { userId: user._id }; 
-    const token = jwt.sign(payload, process.env.JWT_SECRET, { expiresIn: '1h' }); // Ensure this line exists
+    const token = jwt.sign(payload, process.env.JWT_SECRET, { expiresIn: '2h' }); // Ensure this line exists
 
     // Set the JWT token in a cookie
     res.cookie('authToken', token, {
