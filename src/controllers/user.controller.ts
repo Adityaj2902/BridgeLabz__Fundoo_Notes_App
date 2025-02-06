@@ -1,5 +1,6 @@
 import { Request, Response } from 'express';
 import { validationResult } from 'express-validator';
+import { sendResetPasswordEmail } from '../utils/mailer';
 import { registerUser, loginUser , findUserByEmail, updateUserPassword } from '../services/user.service';
 import { generateResetPasswordToken, verifyResetPasswordToken } from '../utils/resetPassword.util';
 import HttpStatus from 'http-status-codes';
@@ -55,11 +56,13 @@ export default class UserController {
       }
 
       const token = generateResetPasswordToken({ email: user.email }, process.env.RESET_PASSWORD_SECRET);
-      res.status(HttpStatus.OK).json({ token });
+      sendResetPasswordEmail(user.email, token);
+      res.status(HttpStatus.OK).json({ message: 'Password reset token sent to email' });
     } catch (error: any) {
       res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({ message: error.message });
     }
   };
+
 
   // Controller method to handle reset password
   public resetPassword = async (req: Request, res: Response): Promise<void> => {

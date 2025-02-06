@@ -715,3 +715,21 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2025-02-06T05:37:38.413Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token 
+ in JSON at position 194
+    at JSON.parse (<anonymous>)
+    at parse (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/body-parser/lib/types/json.js:92:19)
+    at /Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/raw-body/index.js:238:16)
+    at done (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/raw-body/index.js:227:7)
+    at IncomingMessage.onEnd (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/raw-body/index.js:287:7)
+    at IncomingMessage.emit (node:events:381:22)
+    at endReadableNT (node:internal/streams/readable:1307:12)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) 
+    url - /api/v1/users/reset-password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-06T08:23:14.067Z"}

@@ -62,7 +62,10 @@ export const findUserByEmail = async (email: string) => {
   return await User.findOne({ email });
 };
 
-export const updateUserPassword = async (email: string, newPassword: string) => {
-  const hashedPassword = await bcrypt.hash(newPassword, 10);
-  await User.updateOne({ email }, { password: hashedPassword });
+export const updateUserPassword = async (email: string, newPassword: string): Promise<void> => {
+  const user = await User.findOne({ email });
+  if (user) {
+    user.password = newPassword; // Ensure you hash the password before saving
+    await user.save();
+  }
 };

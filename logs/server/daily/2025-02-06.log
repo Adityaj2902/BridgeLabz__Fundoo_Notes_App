@@ -133,3 +133,34 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-06T0
 info: Connected to the database. {"timestamp":"2025-02-06T05:42:10.322Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-06T05:43:27.091Z"}
 info: Connected to the database. {"timestamp":"2025-02-06T05:43:27.105Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-06T06:02:34.630Z"}
+info: Connected to the database. {"timestamp":"2025-02-06T06:02:34.656Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-06T06:04:55.784Z"}
+info: Connected to the database. {"timestamp":"2025-02-06T06:04:55.804Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-06T08:14:18.020Z"}
+info: Connected to the database. {"timestamp":"2025-02-06T08:14:18.057Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-06T08:14:40.394Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-06T08:14:40.916Z"}
+info: Connected to the database. {"timestamp":"2025-02-06T08:14:40.930Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-06T08:14:42.175Z"}
+info: Connected to the database. {"timestamp":"2025-02-06T08:14:42.188Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-06T08:15:52.423Z"}
+info: Connected to the database. {"timestamp":"2025-02-06T08:15:52.435Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token 
+ in JSON at position 194
+    at JSON.parse (<anonymous>)
+    at parse (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/body-parser/lib/types/json.js:92:19)
+    at /Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/raw-body/index.js:238:16)
+    at done (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/raw-body/index.js:227:7)
+    at IncomingMessage.onEnd (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/raw-body/index.js:287:7)
+    at IncomingMessage.emit (node:events:381:22)
+    at endReadableNT (node:internal/streams/readable:1307:12)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) 
+    url - /api/v1/users/reset-password 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-06T08:23:14.067Z"}
