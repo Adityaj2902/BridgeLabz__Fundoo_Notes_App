@@ -1064,3 +1064,5 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2025-02-06T08:23:14.067Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-06T08:41:07.452Z"}
+info: Connected to the database. {"timestamp":"2025-02-06T08:41:07.470Z"}

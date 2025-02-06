@@ -4,7 +4,7 @@ dotenv.config();
 import express, { Application } from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
-import { setupSwagger } from './config/swagger';
+import { setupSwagger } from './swagger/swagger';
 
 import routes from './routes';
 import Database from './config/database';
