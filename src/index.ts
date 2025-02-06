@@ -4,6 +4,7 @@ dotenv.config();
 import express, { Application } from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
+import { setupSwagger } from './config/swagger';
 
 import routes from './routes';
 import Database from './config/database';
@@ -42,6 +43,7 @@ class App {
     this.app.use(express.urlencoded({ extended: true }));
     this.app.use(express.json());
     this.app.use(morgan('combined', { stream: this.logStream }));
+    setupSwagger(this.app);
   }
 
   public initializeDatabase(): void {

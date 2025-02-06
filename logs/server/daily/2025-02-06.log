@@ -26,3 +26,110 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-06T0
 info: Connected to the database. {"timestamp":"2025-02-06T01:40:35.118Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-06T01:40:41.252Z"}
 info: Connected to the database. {"timestamp":"2025-02-06T01:40:41.264Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-06T04:16:21.033Z"}
+info: Connected to the database. {"timestamp":"2025-02-06T04:16:21.068Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-06T04:50:40.457Z"}
+info: Connected to the database. {"timestamp":"2025-02-06T04:50:40.494Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-06T04:50:46.131Z"}
+info: Connected to the database. {"timestamp":"2025-02-06T04:50:46.143Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-06T04:50:49.288Z"}
+info: Connected to the database. {"timestamp":"2025-02-06T04:50:49.300Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-06T04:51:48.247Z"}
+info: Connected to the database. {"timestamp":"2025-02-06T04:51:48.260Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-06T04:52:07.291Z"}
+info: Connected to the database. {"timestamp":"2025-02-06T04:52:07.304Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-06T04:52:45.200Z"}
+info: Connected to the database. {"timestamp":"2025-02-06T04:52:45.212Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-06T04:52:45.797Z"}
+info: Connected to the database. {"timestamp":"2025-02-06T04:52:45.810Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-06T04:53:02.550Z"}
+info: Connected to the database. {"timestamp":"2025-02-06T04:53:02.562Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-06T04:53:03.126Z"}
+info: Connected to the database. {"timestamp":"2025-02-06T04:53:03.141Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-06T05:00:35.516Z"}
+info: Connected to the database. {"timestamp":"2025-02-06T05:00:35.533Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-06T05:15:29.076Z"}
+info: Connected to the database. {"timestamp":"2025-02-06T05:15:29.096Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-06T05:15:40.086Z"}
+info: Connected to the database. {"timestamp":"2025-02-06T05:15:40.098Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-06T05:15:40.931Z"}
+info: Connected to the database. {"timestamp":"2025-02-06T05:15:40.948Z"}
+info: Connected to the database. {"timestamp":"2025-02-06T05:15:53.062Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-06T05:20:10.222Z"}
+info: Connected to the database. {"timestamp":"2025-02-06T05:20:10.234Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-06T05:22:15.810Z"}
+info: Connected to the database. {"timestamp":"2025-02-06T05:22:15.822Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-06T05:28:39.402Z"}
+info: Connected to the database. {"timestamp":"2025-02-06T05:28:39.417Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token A in JSON at position 16
+    at JSON.parse (<anonymous>)
+    at parse (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/body-parser/lib/types/json.js:92:19)
+    at /Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/raw-body/index.js:238:16)
+    at done (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/raw-body/index.js:227:7)
+    at IncomingMessage.onEnd (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/raw-body/index.js:287:7)
+    at IncomingMessage.emit (node:events:381:22)
+    at endReadableNT (node:internal/streams/readable:1307:12)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-06T05:33:20.990Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token A in JSON at position 16
+    at JSON.parse (<anonymous>)
+    at parse (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/body-parser/lib/types/json.js:92:19)
+    at /Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/raw-body/index.js:238:16)
+    at done (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/raw-body/index.js:227:7)
+    at IncomingMessage.onEnd (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/raw-body/index.js:287:7)
+    at IncomingMessage.emit (node:events:381:22)
+    at endReadableNT (node:internal/streams/readable:1307:12)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-06T05:33:43.141Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token A in JSON at position 16
+    at JSON.parse (<anonymous>)
+    at parse (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/body-parser/lib/types/json.js:92:19)
+    at /Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/raw-body/index.js:238:16)
+    at done (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/raw-body/index.js:227:7)
+    at IncomingMessage.onEnd (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/raw-body/index.js:287:7)
+    at IncomingMessage.emit (node:events:381:22)
+    at endReadableNT (node:internal/streams/readable:1307:12)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-06T05:34:54.677Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token A in JSON at position 16
+    at JSON.parse (<anonymous>)
+    at parse (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/body-parser/lib/types/json.js:92:19)
+    at /Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/raw-body/index.js:238:16)
+    at done (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/raw-body/index.js:227:7)
+    at IncomingMessage.onEnd (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/raw-body/index.js:287:7)
+    at IncomingMessage.emit (node:events:381:22)
+    at endReadableNT (node:internal/streams/readable:1307:12)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-06T05:37:38.413Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-06T05:42:10.287Z"}
+info: Connected to the database. {"timestamp":"2025-02-06T05:42:10.322Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-06T05:43:27.091Z"}
+info: Connected to the database. {"timestamp":"2025-02-06T05:43:27.105Z"}
