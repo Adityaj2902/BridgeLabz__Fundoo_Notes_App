@@ -1,8 +1,7 @@
 import { Request, Response } from 'express';
 import { validationResult } from 'express-validator';
-import { registerUser, loginUser ,findUserByEmail, updateUserPassword } from '../services/user.service';
-import { generateToken, verifyToken } from '../utils/user.util';
-
+import { registerUser, loginUser , findUserByEmail, updateUserPassword } from '../services/user.service';
+import { generateResetPasswordToken, verifyResetPasswordToken } from '../utils/resetPassword.util';
 import HttpStatus from 'http-status-codes';
 
 export default class UserController {
@@ -55,7 +54,7 @@ export default class UserController {
         return;
       }
 
-      const token = generateToken({ email: user.email }, process.env.RESET_PASSWORD_SECRET);
+      const token = generateResetPasswordToken({ email: user.email }, process.env.RESET_PASSWORD_SECRET);
       res.status(HttpStatus.OK).json({ token });
     } catch (error: any) {
       res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({ message: error.message });
@@ -65,7 +64,7 @@ export default class UserController {
   // Controller method to handle reset password
   public resetPassword = async (req: Request, res: Response): Promise<void> => {
     try {
-      const decoded = verifyToken(req.body.token,process.env.RESET_PASSWORD_SECRET);
+      const decoded = verifyResetPasswordToken(req.body.token,process.env.RESET_PASSWORD_SECRET);
       const email = decoded.email;
       await updateUserPassword(email, req.body.newPassword);
       res.status(HttpStatus.OK).json({ message: 'Password reset successfully' });

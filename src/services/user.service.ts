@@ -4,7 +4,7 @@
 import bcrypt from 'bcrypt';
 import { User } from '../models/user.model'; // Assuming you have a `User` model
 // eslint-disable-next-line max-len
-import { generateToken } from '../utils/user.util'; // Assuming this function generates JWT tokens
+import { generateToken } from '../utils/jwt.util'; // Assuming this function generates JWT tokens
 
 // Register a new user
 export const registerUser = async (userData: any) => {
@@ -56,6 +56,7 @@ export const loginUser = async (userData: any) => {
     }
   };
 };
+
 
 export const findUserByEmail = async (email: string) => {
   return await User.findOne({ email });

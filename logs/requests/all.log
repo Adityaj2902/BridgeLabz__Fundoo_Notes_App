@@ -152,3 +152,43 @@ info: ::1 - - [05/Feb/2025:05:05:32 +0000] "GET /api/v1/notes HTTP/1.1" 400 27 "
 
 info: ::1 - - [05/Feb/2025:05:06:11 +0000] "POST /api/v1/users/login HTTP/1.1" 200 328 "-" "PostmanRuntime/7.43.0"
 
+info: ::1 - - [05/Feb/2025:05:15:10 +0000] "POST /api/v1/users/login HTTP/1.1" 200 328 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [05/Feb/2025:05:23:14 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 177 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [05/Feb/2025:06:04:04 +0000] "POST /api/v1/users/login HTTP/1.1" 200 328 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [05/Feb/2025:06:04:34 +0000] "POST /api/notes HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [05/Feb/2025:06:05:26 +0000] "GET /api/v1/notes HTTP/1.1" 200 12 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [05/Feb/2025:06:05:49 +0000] "POST /api/v1/notes HTTP/1.1" 201 220 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [05/Feb/2025:07:43:53 +0000] "POST /api/v1/users/login HTTP/1.1" 200 328 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [05/Feb/2025:07:44:19 +0000] "POST /api/notes HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [05/Feb/2025:07:44:24 +0000] "POST /api/notes HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [05/Feb/2025:07:45:05 +0000] "POST /api/notes HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [05/Feb/2025:07:46:07 +0000] "POST /api/v1/users/login HTTP/1.1" 200 328 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [05/Feb/2025:07:46:26 +0000] "POST /api/notes HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [05/Feb/2025:07:46:28 +0000] "POST /api/notes HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [05/Feb/2025:09:50:33 +0000] "POST /api/v1/notes HTTP/1.1" 400 27 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [05/Feb/2025:09:50:40 +0000] "POST /api/v1/users/login HTTP/1.1" 200 328 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [05/Feb/2025:09:51:05 +0000] "POST /api/v1/notes HTTP/1.1" 500 116 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [05/Feb/2025:09:51:48 +0000] "POST /api/v1/notes HTTP/1.1" 201 224 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [05/Feb/2025:09:52:33 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 177 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [05/Feb/2025:09:57:43 +0000] "POST /api/v1/notes HTTP/1.1" 500 72 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [05/Feb/2025:12:08:55 +0000] "POST /api/v1/notes HTTP/1.1" 400 27 "-" "PostmanRuntime/7.43.0"
+

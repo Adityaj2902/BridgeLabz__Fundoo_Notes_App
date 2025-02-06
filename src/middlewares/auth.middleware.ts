@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { Request, Response, NextFunction } from 'express';
-import { verifyToken } from '../utils/user.util';
+import { verifyToken } from '../utils/jwt.util';
 
 export const authenticate = (
   req: Request,
