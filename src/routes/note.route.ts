@@ -5,12 +5,6 @@ import NoteController from '../controllers/note.controller';
 import { createNoteValidation, updateNoteValidation } from '../validators/note.validator';
 import { authenticate } from '../middlewares/auth.middleware';
 
-/**
- * @swagger
- * tags:
- *   name: Notes
- *   description: API for managing notes
- */
 class NoteRoutes {
     private NoteController = new NoteController();
     private router = express.Router();
