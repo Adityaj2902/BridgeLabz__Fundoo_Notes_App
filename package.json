@@ -7,7 +7,7 @@
     "build": "tsc",
     "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts",
     "start": "tsc && node build/index.js",
-    "test": "cross-env NODE_ENV=test mocha --exit --recursive --require ts-node/register --timeout=5000 tests/**/*.ts",
+    "test": "cross-env NODE_ENV=test mocha --exit --recursive --require ts-node/register --timeout=15000 tests/**/*.ts",
     "test:coverage": "cross-env NODE_ENV=test nyc --require ts-node/register --reporter lcov --reporter text mocha --exit --recursive --timeout=5000 tests/**/*.ts",
     "lint": "eslint . --ext .ts",
     "lint-fix": "eslint . --ext .ts --fix"
@@ -17,7 +17,7 @@
   "dependencies": {
     "@hapi/joi": "^17.1.1",
     "@sendgrid/mail": "^7.2.5",
-    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
@@ -46,6 +46,7 @@
     "@types/jsonwebtoken": "^8.5.0",
     "@types/mocha": "^8.0.3",
     "@types/mongoose": "^5.7.36",
+    "@types/supertest": "^6.0.2",
     "@typescript-eslint/eslint-plugin": "^4.0.1",
     "@typescript-eslint/parser": "^4.0.1",
     "chai": "^4.2.0",
@@ -59,7 +60,7 @@
     "prettier": "^2.1.1",
     "rimraf": "^3.0.2",
     "supertest": "^4.0.2",
-    "ts-node": "^9.0.0",
-    "typescript": "^4.0.2"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
   }
 }

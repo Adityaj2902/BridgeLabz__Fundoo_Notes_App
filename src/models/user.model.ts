@@ -1,19 +1,13 @@
-import { Schema, model } from 'mongoose';
-import { IUser } from '../interfaces/user.interface';
+import mongoose, { Schema, Document } from 'mongoose';
 
-// Define User Schema
-const userSchema = new Schema<IUser>(
-  {
-    firstName: { type: String, required: true },
-    lastName: { type: String, required: true },
-    email: { type: String, required: true, unique: true },
-    password: { type: String, required: true }
-    // eslint-disable-next-line max-len
-  },
-  {
-    timestamps: true // Automatically adds createdAt and updatedAt fields
-  }
-);
+const UserSchema: Schema = new Schema({
+  firstName: { type: String, required: true },
+  username: { type: String, required: true, unique: true },
+  lastName: { type: String, required: true },
+  email: { type: String, required: true, unique: true },
+  password: { type: String, required: true }
+});
 
-// Create and export the User model
-export const User = model<IUser>('User', userSchema);
+const User = mongoose.model('User', UserSchema);
+
+export default User;

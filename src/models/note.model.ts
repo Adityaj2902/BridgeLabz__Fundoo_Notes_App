@@ -10,4 +10,4 @@ const noteSchema = new Schema<INote>({
     userId: { type: Schema.Types.ObjectId, ref: 'User', required: true } // user id to create a link between note and user
 });
 
-export const Note = model<INote>('Note', noteSchema);
+export const Note = model<INote & Document>('Note', noteSchema);
