@@ -129,6 +129,73 @@ describe('User APIs Test', () => {
     });
   });
 
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //   describe('createNote', () => {
 //     it('should create a new note', async () => {
 //         const noteData = { title: 'Test Note', content: 'This is a test note' };
@@ -169,4 +236,4 @@ describe('User APIs Test', () => {
 //   });
 // });
   // });
-});
+// });

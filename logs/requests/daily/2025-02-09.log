@@ -1,0 +1,10 @@
+info: ::ffff:127.0.0.1 - - [09/Feb/2025:15:56:39 +0000] "POST /api/v1/users/register HTTP/1.1" 201 257 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Feb/2025:15:56:40 +0000] "POST /api/v1/users/login HTTP/1.1" 200 348 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Feb/2025:15:56:40 +0000] "POST /api/v1/users/login HTTP/1.1" 401 33 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Feb/2025:15:56:41 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Feb/2025:15:56:41 +0000] "POST /api/v1/users/reset-password HTTP/1.1" 200 41 "-" "node-superagent/3.8.3"
+

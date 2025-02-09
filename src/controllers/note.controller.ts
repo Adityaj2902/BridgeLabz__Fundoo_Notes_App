@@ -10,7 +10,8 @@ export default class NoteController {
     public create = async (req: Request, res: Response): Promise<void> => {
         try {
             // const note = await createNote(req.body, req.user.id); // Assuming req.user.id contains the authenticated user's ID
-            const note = await createNote(req.body, (req as any).user.id);            res.status(HttpStatus.CREATED).json({ message: 'Note created successfully', note });
+            const note = await createNote(req.body, (req as any).user.id);           
+            res.status(HttpStatus.CREATED).json({ message: 'Note created successfully', note });
         } catch (error: any) {
             res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({ message: error.message });
         }
