@@ -223,3 +223,66 @@
  *       500:
  *         description: Internal server error
  */
+
+/**
+ * @swagger
+ * /notes/{id}/trash:
+ *   put:
+ *     summary: Move a note to trash by ID
+ *     tags: [Notes]
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema:
+ *           type: string
+ *     responses:
+ *       200:
+ *         description: Note moved to trash successfully
+ *       500:
+ *         description: Internal server error
+ */
+
+/**
+ * @swagger
+ * /notes/{id}/archive:
+ *   put:
+ *     summary: Archive a note by ID
+ *     tags: [Notes]
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema:
+ *           type: string
+ *     responses:
+ *       200:
+ *         description: Note archived successfully
+ *       500:
+ *         description: Internal server error
+ */
+
+/**
+ * @swagger
+ * /notes/{id}/unarchive:
+ *   put:
+ *     summary: Unarchive a note by ID
+ *     tags: [Notes]
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema:
+ *           type: string
+ *     responses:
+ *       200:
+ *         description: Note unarchived successfully
+ *       500:
+ *         description: Internal server error
+ */

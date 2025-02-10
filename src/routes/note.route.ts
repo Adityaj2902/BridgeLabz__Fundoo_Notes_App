@@ -19,6 +19,9 @@ class NoteRoutes {
         this.router.get('/', authenticate, this.NoteController.getAllByUser); // Add this line
         this.router.put('/:id', updateNoteValidation, authenticate, this.NoteController.updateById);
         this.router.delete('/:id', authenticate, this.NoteController.deleteById);
+        this.router.put('/:id/trash', authenticate, this.NoteController.moveToTrash);
+        this.router.put('/:id/archive', authenticate, this.NoteController.archiveNote);
+        this.router.put('/:id/unarchive', authenticate, this.NoteController.unarchiveNote);
     };
 
     public getRoutes = (): IRouter => {
