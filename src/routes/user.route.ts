@@ -1,10 +1,7 @@
-/* eslint-disable max-len */
 import express, { IRouter } from 'express';
 import userController from '../controllers/user.controller';
-// eslint-disable-next-line prettier/prettier
 import { registerValidation, loginValidation } from '../validators/user.validator'; // Import validators
 
-// import { userAuth } from '../middlewares/auth.middleware';
 
 class UserRoutes {
   private UserController = new userController();

@@ -61,9 +61,7 @@ class App {
 
   public startApp(): void {
     this.app.listen(this.port, () => {
-      this.logger.info(
-        `Server started at ${this.host}:${this.port}/api/${this.api_version}/`
-      );
+      this.logger.info(`Server started at ${this.host}:${this.port}/api/${this.api_version}/`);
     });
   }
 

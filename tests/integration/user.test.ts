@@ -3,7 +3,7 @@ import jwt from 'jsonwebtoken';
 import request from 'supertest';
 import mongoose, { Types } from 'mongoose';
 import app from '../../src/index';
-import * as noteService from './../../src/services/note.service';
+
 // import { Types } from 'mongoose';
 
 
@@ -235,5 +235,5 @@ describe('User APIs Test', () => {
 //       expect(deletedNote).to.be.null;
 //   });
 // });
-  // });
+// });
 // });
