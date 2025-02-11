@@ -7,6 +7,7 @@ import { authenticate } from '../middlewares/auth.middleware';
 
 class NoteRoutes {
   private NoteController = new NoteController();
+
   private router = express.Router();
   // NoteController: any;
 

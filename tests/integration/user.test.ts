@@ -1,14 +1,12 @@
-import { expect } from 'chai';
-import jwt from 'jsonwebtoken';
-import request from 'supertest';
-import mongoose, { Types } from 'mongoose';
-import app from '../../src/index';
+import { expect } from "chai";
+import jwt from "jsonwebtoken";
+import request from "supertest";
+import mongoose from "mongoose";
+import app from "../../src/index";
 
 // import { Types } from 'mongoose';
 
-
-
-describe('User APIs Test', () => {
+describe("User APIs Test", () => {
   before((done) => {
     const clearCollections = () => {
       for (const collection in mongoose.connection.collections) {
@@ -19,7 +17,7 @@ describe('User APIs Test', () => {
     const mongooseConnect = async () => {
       const dbUri = process.env.DATABASE_TEST;
       if (!dbUri) {
-        throw new Error('DATABASE_TEST environment variable is not defined');
+        throw new Error("DATABASE_TEST environment variable is not defined");
       }
       await mongoose.connect(dbUri);
       clearCollections();
@@ -46,155 +44,95 @@ describe('User APIs Test', () => {
   //   });
   // });
 
-  describe('POST /register', () => {
-    it('should register a new user', (done) => {
+  describe("POST /register", () => {
+    it("should register a new user", (done) => {
       request(app.getApp())
-        .post('/api/v1/users/register')
+        .post("/api/v1/users/register")
         .send({
-          firstName:'Aditya',
-          lastName:'Jaiswal',
-          email: 'test@example.com',
-          password: 'password123',
-          username: 'testuser'
+          firstName: "Aditya",
+          lastName: "Jaiswal",
+          email: "test@example.com",
+          password: "password123",
+          username: "testuser",
         })
         .end((err, res) => {
           expect(res.statusCode).to.be.equal(201);
-          expect(res.body.message).to.be.equal('User registered successfully');
-          expect(res.body.user).to.have.property('email', 'test@example.com');
+          expect(res.body.message).to.be.equal("User registered successfully");
+          expect(res.body.user).to.have.property("email", "test@example.com");
           done();
         });
     });
   });
 
-  describe('POST /login', () => {
-    it('should login an existing user', (done) => {
+  describe("POST /login", () => {
+    it("should login an existing user", (done) => {
       request(app.getApp())
-        .post('/api/v1/users/login')
+        .post("/api/v1/users/login")
         .send({
-          email: 'test@example.com',
-          password: 'password123'
+          email: "test@example.com",
+          password: "password123",
         })
         .end((err, res) => {
           expect(res.statusCode).to.be.equal(200);
-          expect(res.body.message).to.be.equal('Login successful');
-          expect(res.body).to.have.property('token');
+          expect(res.body.message).to.be.equal("Login successful");
+          expect(res.body).to.have.property("token");
           done();
         });
     });
 
-    it('should not login with incorrect credentials', (done) => {
+    it("should not login with incorrect credentials", (done) => {
       request(app.getApp())
-        .post('/api/v1/users/login')
+        .post("/api/v1/users/login")
         .send({
-          email: 'test@example.com',
-          password: 'wrongpassword'
+          email: "test@example.com",
+          password: "wrongpassword",
         })
         .end((err, res) => {
           expect(res.statusCode).to.be.equal(401);
-          expect(res.body.message).to.be.equal('Invalid credentials');
+          expect(res.body.message).to.be.equal("Invalid credentials");
           done();
         });
     });
   });
 
-  describe('POST /forgot-password', () => {
-    it('should send a password reset token', (done) => {
+  describe("POST /forgot-password", () => {
+    it("should send a password reset token", (done) => {
       request(app.getApp())
-        .post('/api/v1/users/forgot-password')
+        .post("/api/v1/users/forgot-password")
         .send({
-          email: 'test@example.com'
+          email: "test@example.com",
         })
         .end((err, res) => {
           expect(res.statusCode).to.be.equal(200);
-          expect(res.body.message).to.be.equal('Password reset token sent to email');
+          expect(res.body.message).to.be.equal(
+            "Password reset token sent to email"
+          );
           done();
         });
     });
   });
 
-  describe('POST /reset-password', () => {
-    it('should reset the password', (done) => {
-      const resetToken = jwt.sign({ email: 'test@example.com' }, process.env.RESET_PASSWORD_SECRET!, { expiresIn: '1h' });
+  describe("POST /reset-password", () => {
+    it("should reset the password", (done) => {
+      const resetToken = jwt.sign(
+        { email: "test@example.com" },
+        process.env.RESET_PASSWORD_SECRET!,
+        { expiresIn: "1h" }
+      );
       request(app.getApp())
-        .post('/api/v1/users/reset-password')
+        .post("/api/v1/users/reset-password")
         .send({
           token: resetToken,
-          newPassword: 'newpassword123'
+          newPassword: "newpassword123",
         })
         .end((err, res) => {
           expect(res.statusCode).to.be.equal(200);
-          expect(res.body.message).to.be.equal('Password reset successfully');
+          expect(res.body.message).to.be.equal("Password reset successfully");
           done();
         });
     });
   });
-
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //   describe('createNote', () => {
 //     it('should create a new note', async () => {

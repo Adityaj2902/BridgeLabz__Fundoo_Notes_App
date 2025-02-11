@@ -2,9 +2,9 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable no-unused-vars */
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import HttpStatus from 'http-status-codes';
-import Logger from '../config/logger';
-import { Request, Response, NextFunction } from 'express';
+import HttpStatus from "http-status-codes";
+import { Request, Response, NextFunction } from "express";
+import Logger from "../config/logger";
 
 class ErrorMiddleware {
   private logger;
@@ -22,7 +22,7 @@ class ErrorMiddleware {
   public notFound = (req: Request, res: Response): void => {
     res.status(HttpStatus.NOT_FOUND).json({
       code: HttpStatus.NOT_FOUND,
-      message: 'Ooops, route not found'
+      message: "Ooops, route not found",
     });
   };
 
@@ -42,7 +42,7 @@ class ErrorMiddleware {
     res: Response,
     next: NextFunction
   ): void => {
-    if (err.code && typeof err.code === 'number') {
+    if (err.code && typeof err.code === "number") {
       this.logger.error(`
       status - ${err.code}
       message - ${err.message} 
@@ -52,7 +52,7 @@ class ErrorMiddleware {
     `);
       res.status(err.code).json({
         code: err.code,
-        message: err.message
+        message: err.message,
       });
     } else {
       next(err);
@@ -84,8 +84,8 @@ class ErrorMiddleware {
 
     res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({
       code: HttpStatus.INTERNAL_SERVER_ERROR,
-      data: '',
-      message: err.message
+      data: "",
+      message: err.message,
     });
   };
 }

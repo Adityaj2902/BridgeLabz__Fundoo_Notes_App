@@ -1,61 +1,33 @@
 {
     "env": {
-        "browser": true,
-        "es2021": true,
-        "node": true
+      "browser": true,
+      "es2021": true,
+      "node": true
     },
     "extends": [
-        // "airbnb-base",
-        "plugin:@typescript-eslint/recommended"
+    //   "airbnb-base",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:prettier/recommended"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
-        "ecmaVersion": 12,
-        "sourceType": "module"
+      "ecmaVersion": 12,
+      "sourceType": "module"
     },
     "plugins": [
-        "@typescript-eslint"
+      "@typescript-eslint",
+      "prettier"
     ],
     "rules": {
-        // Enforce consistent spacing inside array brackets
-        "array-bracket-spacing": ["error", "never"],
-
-        // Enforce return types for functions (helpful for TypeScript)
-        // "@typescript-eslint/explicit-module-boundary-types": "off",  // you can turn it on if you want strict typing for function signatures
-
-        // Prevent unnecessary type assertions
-        "@typescript-eslint/no-explicit-any": "warn",
-
-        // Require type annotations on functions and class methods
-        // "@typescript-eslint/explicit-function-return-type": ["warn", {
-        //     "allowExpressions": true
-        // }],
-
-        // Enforce consistent indentation (2 spaces for this config)
-        "indent": ["error", 2],
-
-        // Enforce single quotes for consistency
-        "quotes": ["error", "single"],
-
-        // Disallow console.log in production code
-        "no-console": "warn",
-
-        // Require strict equality (=== and !==) instead of == and !=
-        "eqeqeq": ["error", "always"],
-
-        // Allow the use of async-await for better code readability
-        // "no-async-promise-executor": "warn",
-
-        // Ensure function expressions have parentheses for clarity
-        // "arrow-parens": ["error", "always"],
-
-        // Enforce consistent line breaks after function parameters (multi-line functions)
-        "function-paren-newline": ["error", "multiline"],
-
-        // Enable typescript-specific linting for type-related checks
-        // "@typescript-eslint/ban-ts-comment": "warn",
-
-        // Enforce consistent use of semicolons
-        "semi": ["error", "always"]
+      // Allow console.warn and console.error but warn about console.log
+      "no-console": [
+        "warn", 
+        { "allow": ["warn", "error"] }
+      ],
+      // Allow unused variables if they start with an underscore
+      "@typescript-eslint/no-unused-vars": [
+        "warn", 
+        { "argsIgnorePattern": "^_", "varsIgnorePattern": "^_" }
+      ]
     }
-}
+  }  

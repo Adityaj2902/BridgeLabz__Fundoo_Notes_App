@@ -112,7 +112,6 @@
  *         description: Internal server error
  */
 
-
 // filepath: /Volumes/MacOs Disk 1/Fundoo_Notes_App/src/config/swaggerDefinitions.ts
 /**
  * @swagger

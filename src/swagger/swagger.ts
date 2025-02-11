@@ -1,15 +1,15 @@
 // filepath: /Volumes/MacOs Disk 1/Fundoo_Notes_App/src/config/swagger.ts
-import swaggerJsdoc from 'swagger-jsdoc';
-import swaggerUi from 'swagger-ui-express';
-import { Application } from 'express';
+import swaggerJsdoc from "swagger-jsdoc";
+import swaggerUi from "swagger-ui-express";
+import { Application } from "express";
 
 const options = {
   definition: {
-    openapi: '3.0.0',
+    openapi: "3.0.0",
     info: {
-      title: 'Fundoo Notes API',
-      version: '1.0.0',
-      description: 'API documentation for Fundoo Notes',
+      title: "Fundoo Notes API",
+      version: "1.0.0",
+      description: "API documentation for Fundoo Notes",
     },
     servers: [
       {
@@ -19,9 +19,9 @@ const options = {
     components: {
       securitySchemes: {
         bearerAuth: {
-          type: 'http',
-          scheme: 'bearer',
-          bearerFormat: 'JWT',
+          type: "http",
+          scheme: "bearer",
+          bearerFormat: "JWT",
         },
       },
     },
@@ -31,11 +31,11 @@ const options = {
       },
     ],
   },
-  apis: ['./src/routes/*.ts', './src/swagger/swaggerDefinitions.ts'], // Paths to files containing OpenAPI definitions
+  apis: ["./src/routes/*.ts", "./src/swagger/swaggerDefinitions.ts"], // Paths to files containing OpenAPI definitions
 };
 
 const swaggerSpec = swaggerJsdoc(options);
 
 export const setupSwagger = (app: Application): void => {
-  app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+  app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 };

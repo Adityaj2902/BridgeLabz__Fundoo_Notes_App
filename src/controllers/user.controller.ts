@@ -1,10 +1,13 @@
-import { Request, Response } from 'express';
-import { validationResult } from 'express-validator';
-import { sendResetPasswordEmail } from '../utils/mailer';
-import { UserService } from '../services/user.service';
-import { generateResetPasswordToken, verifyResetPasswordToken } from '../utils/resetPassword.util';
-import HttpStatus from 'http-status-codes';
-import dotenv from 'dotenv';
+import { Request, Response } from "express";
+import { validationResult } from "express-validator";
+import HttpStatus from "http-status-codes";
+import dotenv from "dotenv";
+import { sendResetPasswordEmail } from "../utils/mailer";
+import { UserService } from "../services/user.service";
+import {
+  generateResetPasswordToken,
+  verifyResetPasswordToken,
+} from "../utils/resetPassword.util";
 
 dotenv.config();
 
@@ -20,10 +23,14 @@ export default class UserController {
 
     try {
       const user = await userService.registerUser(req.body);
-      res.status(HttpStatus.CREATED).json({ message: 'User registered successfully', user });
-    } catch (error: any) {
-      console.error('Error during user registration:', error); // Add this line for logging
-      res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({ message: error.message });
+      res
+        .status(HttpStatus.CREATED)
+        .json({ message: "User registered successfully", user });
+    } catch (error: unknown) {
+      console.error("Error during user registration:", error); // Add this line for logging
+      res
+        .status(HttpStatus.INTERNAL_SERVER_ERROR)
+        .json({ message: error.message });
     }
   };
 
@@ -36,42 +43,58 @@ export default class UserController {
 
     try {
       const token = await userService.loginUser(req.body);
-      res.status(HttpStatus.OK).json({ message: 'Login successful', token });
-    } catch (error: any) {
+      res.status(HttpStatus.OK).json({ message: "Login successful", token });
+    } catch (error: unknown) {
       res.status(HttpStatus.UNAUTHORIZED).json({ message: error.message });
     }
   };
 
-  public forgotPassword = async (req: Request, res: Response): Promise<void> => {
+  public forgotPassword = async (
+    req: Request,
+    res: Response
+  ): Promise<void> => {
     try {
       const user = await userService.findUserByEmail(req.body.email);
       if (!user) {
-        res.status(HttpStatus.NOT_FOUND).json({ message: 'User not found' });
+        res.status(HttpStatus.NOT_FOUND).json({ message: "User not found" });
         return;
       }
 
-      const token = generateResetPasswordToken({ email: user.email }, process.env.RESET_PASSWORD_SECRET!);
+      const token = generateResetPasswordToken(
+        { email: user.email },
+        process.env.RESET_PASSWORD_SECRET!
+      );
       await sendResetPasswordEmail(user.email, token);
-      res.status(HttpStatus.OK).json({ message: 'Password reset token sent to email' });
-    } catch (error: any) {
-      res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({ message: error.message });
+      res
+        .status(HttpStatus.OK)
+        .json({ message: "Password reset token sent to email" });
+    } catch (error: unknown) {
+      res
+        .status(HttpStatus.INTERNAL_SERVER_ERROR)
+        .json({ message: error.message });
     }
   };
 
   public resetPassword = async (req: Request, res: Response): Promise<void> => {
     try {
-      console.log('Reset password request received:', req.body); // Add this line for logging
-      const decoded = verifyResetPasswordToken(req.body.token, process.env.RESET_PASSWORD_SECRET!);
-      if (typeof decoded !== 'string' && 'email' in decoded) {
-        const email = decoded.email;
+      const decoded = verifyResetPasswordToken(
+        req.body.token,
+        process.env.RESET_PASSWORD_SECRET!
+      );
+      if (typeof decoded !== "string" && "email" in decoded) {
+        const { email } = decoded;
         await userService.updateUserPassword(email, req.body.newPassword);
-        res.status(HttpStatus.OK).json({ message: 'Password reset successfully' });
+        res
+          .status(HttpStatus.OK)
+          .json({ message: "Password reset successfully" });
       } else {
-        res.status(HttpStatus.BAD_REQUEST).json({ message: 'Invalid token' });
+        res.status(HttpStatus.BAD_REQUEST).json({ message: "Invalid token" });
       }
-    } catch (error: any) {
-      console.error('Error during password reset:', error); // Add this line for logging
-      res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({ message: error.message });
+    } catch (error: unknown) {
+      console.error("Error during password reset:", error); // Add this line for logging
+      res
+        .status(HttpStatus.INTERNAL_SERVER_ERROR)
+        .json({ message: error.message });
     }
   };
 }

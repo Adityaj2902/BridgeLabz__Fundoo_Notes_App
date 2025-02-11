@@ -2,8 +2,8 @@
 /* eslint-disable prettier/prettier */
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { Note } from '../models/note.model';
 import { Types } from 'mongoose';
+import { Note } from '../models/note.model';
 
 // create note
 export const createNote = async (noteData: any, userId: string) => {
