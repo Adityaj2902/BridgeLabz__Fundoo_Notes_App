@@ -2,7 +2,9 @@
 import swaggerJsdoc from "swagger-jsdoc";
 import swaggerUi from "swagger-ui-express";
 import { Application } from "express";
+import dotenv from 'dotenv';
 
+dotenv.config();
 const options = {
   definition: {
     openapi: "3.0.0",
@@ -31,7 +33,7 @@ const options = {
       },
     ],
   },
-  apis: ["./src/routes/*.ts", "./src/swagger/swaggerDefinitions.ts"], // Paths to files containing OpenAPI definitions
+  apis: ["./src/routes/*.ts", "./src/swagger/swaggerDefinitions.ts"],
 };
 
 const swaggerSpec = swaggerJsdoc(options);
