@@ -28,3 +28,20 @@ export const sendResetPasswordEmail = (to: string, token: string) => {
     }
   });
 };
+
+export const sendCollaboratorEmail = (to: string, noteTitle: string) => {
+  const mailOptions = {
+    from: process.env.EMAIL_USER,
+    to,
+    subject: "You have been added as a collaborator",
+    text: `You have been added as a collaborator to the note: ${noteTitle}`,
+  };
+
+  transporter.sendMail(mailOptions, (error, info) => {
+    if (error) {
+      console.error("Error sending email:", error);
+    } else {
+      console.info("Email sent:", info.response);
+    }
+  });
+};

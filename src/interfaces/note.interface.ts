@@ -6,4 +6,7 @@ export interface INote extends Document {
     description: string;
     color: string;
     userId: ObjectId; // To associate the note with a user
+    collaborators: string[];
 }
+
+

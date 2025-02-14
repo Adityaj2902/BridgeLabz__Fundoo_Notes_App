@@ -7,7 +7,7 @@ import {
   getNotesByUserId,
   moveToTrash,
   archiveNote,
-  unarchiveNote,
+  unarchiveNote,searchNotesByTitle
 } from "../services/note.service";
 
 export default class NoteController {
@@ -49,6 +49,15 @@ export default class NoteController {
       res
         .status(HttpStatus.INTERNAL_SERVER_ERROR)
         .json({ message: error.message });
+    }
+  };
+
+  public searchByTitle = async (req: Request, res: Response): Promise<void> => {
+    try {
+      const notes = await searchNotesByTitle((req as any).user.id, req.query.title as string);
+      res.status(HttpStatus.OK).json({ notes });
+    } catch (error: unknown) {
+      res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({ message: error.message });
     }
   };
 

@@ -2,9 +2,9 @@
 /* eslint-disable prettier/prettier */
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 /* eslint-disable @typescript-eslint/no-explicit-any */
+
 import { Types } from 'mongoose';
 import redisClient from '../config/redis';
-
 import { Note } from '../models/note.model';
 
 // create note
@@ -15,16 +15,13 @@ export const createNote = async (noteData: any, userId: string) => {
   noteData.userId = new Types.ObjectId(userId);
   noteData.isTrash = false;
   noteData.isArchive = false;
-  const note= await Note.create(noteData);
+  const note = await Note.create(noteData);
 
-   // Add note ID to user's note list in Redis
-   const userNotesKey = `userNotes:${userId}`;
-   await redisClient.lPush(userNotesKey, note._id.toString());
- 
-   // Invalidate the user's notes cache
-   await redisClient.del(`notes:${userId}`);
- 
-   return note;
+  // Add note to Redis cache
+  const noteKey = `note:${note._id}`;
+  await redisClient.set(noteKey, JSON.stringify(note), { EX: 3600 });
+
+  return note;
 };
 
 export const getNotesByUserId = async (userId: object) => {
@@ -47,36 +44,62 @@ export const getNotesByUserId = async (userId: object) => {
 export const updateNoteById = async (noteId: string, updateData: any) => {
   const note = await Note.findByIdAndUpdate(noteId, updateData, { new: true });
   if (note) {
-    await redisClient.del(`notes:${note.userId}`);
+    // Update note in Redis cache
+    const noteKey = `note:${note._id}`;
+    await redisClient.set(noteKey, JSON.stringify(note), { EX: 3600 });
   }
   return note;
+};
+
+export const searchNotesByTitle = async (userId: string, title: string) => {
+  const notes = await Note.find({
+    userId,
+    title: { $regex: title, $options: 'i' }, // case-insensitive search
+    isTrash: false,
+  });
+  return notes;
 };
 
 // delete note
 export const deleteNoteById = async (noteId: string) => {
   const note = await Note.findByIdAndDelete(noteId);
   if (note) {
-    // Remove note ID from user's note list in Redis
-    const userNotesKey = `userNotes:${note.userId}`;
-    await redisClient.lRem(userNotesKey, 0, noteId);
-
-    // Invalidate the user's notes cache
-    await redisClient.del(`notes:${note.userId}`);
+    // Remove note from Redis cache
+    const noteKey = `note:${note._id}`;
+    await redisClient.del(noteKey);
   }
   return note;
 };
 
 // move note to trash
 export const moveToTrash = async (noteId: string) => {
-  return await Note.findByIdAndUpdate(noteId, { isTrash: true }, { new: true });
+  const note = await Note.findByIdAndUpdate(noteId, { isTrash: true }, { new: true });
+  if (note) {
+    // Update note in Redis cache
+    const noteKey = `note:${note._id}`;
+    await redisClient.set(noteKey, JSON.stringify(note), { EX: 3600 });
+  }
+  return note;
 };
 
 // archive note
 export const archiveNote = async (noteId: string) => {
-  return await Note.findByIdAndUpdate(noteId, { isArchive: true }, { new: true });
+  const note = await Note.findByIdAndUpdate(noteId, { isArchive: true }, { new: true });
+  if (note) {
+    // Update note in Redis cache
+    const noteKey = `note:${note._id}`;
+    await redisClient.set(noteKey, JSON.stringify(note), { EX: 3600 });
+  }
+  return note;
 };
 
 // unarchive note
 export const unarchiveNote = async (noteId: string) => {
-  return await Note.findByIdAndUpdate(noteId, { isArchive: false }, { new: true });
+  const note = await Note.findByIdAndUpdate(noteId, { isArchive: false }, { new: true });
+  if (note) {
+    // Update note in Redis cache
+    const noteKey = `note:${note._id}`;
+    await redisClient.set(noteKey, JSON.stringify(note), { EX: 3600 });
+  }
+  return note;
 };

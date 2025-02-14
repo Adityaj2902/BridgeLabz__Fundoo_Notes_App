@@ -225,6 +225,36 @@
 
 /**
  * @swagger
+ * /notes/search:
+ *   get:
+ *     summary: Search notes by title
+ *     tags: [Notes]
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - in: query
+ *         name: title
+ *         schema:
+ *           type: string
+ *         required: true
+ *         description: The title to search for
+ *     responses:
+ *       200:
+ *         description: A list of notes
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: array
+ *               items:
+ *                 $ref: '#/components/schemas/Note'
+ *       401:
+ *         description: Unauthorized
+ *       500:
+ *         description: Internal server error
+ */
+
+/**
+ * @swagger
  * /notes/{id}/trash:
  *   put:
  *     summary: Move a note to trash by ID
@@ -282,6 +312,82 @@
  *     responses:
  *       200:
  *         description: Note unarchived successfully
+ *       500:
+ *         description: Internal server error
+ */
+
+
+/**
+ * @swagger
+ * tags:
+ *   name: Collaborators
+ *   description: API for managing collaborators
+ */
+
+/**
+ * @swagger
+ * /collaborators/{noteId}/add:
+ *   post:
+ *     summary: Add a collaborator to a note
+ *     tags: [Collaborators]
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - in: path
+ *         name: noteId
+ *         required: true
+ *         schema:
+ *           type: string
+ *         description: The ID of the note
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               userId:
+ *                 type: string
+ *                 description: The ID of the user to add as a collaborator
+ *     responses:
+ *       200:
+ *         description: Collaborator added successfully
+ *       404:
+ *         description: Note or user not found
+ *       500:
+ *         description: Internal server error
+ */
+
+/**
+ * @swagger
+ * /collaborators/{noteId}/remove:
+ *   post:
+ *     summary: Remove a collaborator from a note
+ *     tags: [Collaborators]
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - in: path
+ *         name: noteId
+ *         required: true
+ *         schema:
+ *           type: string
+ *         description: The ID of the note
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               userId:
+ *                 type: string
+ *                 description: The ID of the user to remove as a collaborator
+ *     responses:
+ *       200:
+ *         description: Collaborator removed successfully
+ *       404:
+ *         description: Note or user not found
  *       500:
  *         description: Internal server error
  */

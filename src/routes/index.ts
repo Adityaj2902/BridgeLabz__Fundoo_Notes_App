@@ -2,6 +2,7 @@ import express, { IRouter } from "express";
 
 import userRoute from "./user.route";
 import NoteRoutes from "./note.route";
+import CollaboratorRoutes from "./collaborator.route";
 
 const router = express.Router();
 
@@ -16,6 +17,8 @@ const routes = (): IRouter => {
   });
   router.use("/users", new userRoute().getRoutes());
   router.use("/notes", new NoteRoutes().getRoutes()); // Add note routes
+  router.use("/collaborators", new CollaboratorRoutes().getRoutes()); // Add collaborator routes
+
 
   return router;
 };
