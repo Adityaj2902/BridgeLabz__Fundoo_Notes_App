@@ -1,0 +1,4 @@
+info: ::1 - - [15/Feb/2025:03:36:51 +0000] "POST /api/v1/users/register HTTP/1.1" 201 263 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [15/Feb/2025:05:46:39 +0000] "POST /api/v1/users/register HTTP/1.1" 201 262 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+

@@ -4,6 +4,8 @@ import HttpStatus from "http-status-codes";
 import dotenv from "dotenv";
 import { sendResetPasswordEmail } from "../utils/mailer";
 import { UserService } from "../services/user.service";
+import connectRabbitMQ from "../config/rabbitmq"; // Import RabbitMQ connection
+
 import {
   generateResetPasswordToken,
   verifyResetPasswordToken,
@@ -23,6 +25,19 @@ export default class UserController {
 
     try {
       const user = await userService.registerUser(req.body);
+
+      // Publish message to RabbitMQ
+      const channel = await connectRabbitMQ();
+      const queue = 'emailQueue';
+      const message = JSON.stringify({
+        to: user.email,
+        subject: 'Registration Successful',
+        text: `Welcome ${user.firstName}, you have successfully registered To Our Fundoo Notes Application.`,
+      });
+
+      channel.assertQueue(queue, { durable: true });
+      channel.sendToQueue(queue, Buffer.from(message), { persistent: true });
+
       res
         .status(HttpStatus.CREATED)
         .json({ message: "User registered successfully", user });

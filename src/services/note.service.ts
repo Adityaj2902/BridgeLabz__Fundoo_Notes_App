@@ -1,8 +1,3 @@
-/* eslint-disable max-len */
-/* eslint-disable prettier/prettier */
-/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
-/* eslint-disable @typescript-eslint/no-explicit-any */
-
 import { Types } from 'mongoose';
 import redisClient from '../config/redis';
 import { Note } from '../models/note.model';
@@ -17,25 +12,32 @@ export const createNote = async (noteData: any, userId: string) => {
   noteData.isArchive = false;
   const note = await Note.create(noteData);
 
-  // Add note to Redis cache
-  const noteKey = `note:${note._id}`;
-  await redisClient.set(noteKey, JSON.stringify(note), { EX: 3600 });
+  // Add the note to Redis cache using a hash (where key is userId and field is noteId)
+  const cacheKey = `notes:${userId}`;
+  const cachedNotes = await redisClient.hGetAll(cacheKey);
 
+  if (Object.keys(cachedNotes).length > 0) {
+    const noteKey = `notes:${userId}`;
+    await redisClient.hSet(noteKey, note._id.toString(), JSON.stringify(note));
+  }
   return note;
 };
 
-export const getNotesByUserId = async (userId: object) => {
+// get notes by userId
+export const getNotesByUserId = async (userId: string) => {
   const cacheKey = `notes:${userId}`;
-  const cachedNotes = await redisClient.get(cacheKey);
+  const cachedNotes = await redisClient.hGetAll(cacheKey);
 
-  if (cachedNotes) {
-    return JSON.parse(cachedNotes);
+  if (Object.keys(cachedNotes).length > 0) {
+    return Object.values(cachedNotes).map((note: string) => JSON.parse(note));
   }
 
-  const notes = await Note.find({ userId, isTrash: false });
-  await redisClient.set(cacheKey, JSON.stringify(notes), {
-    EX: 3600, // Cache expiration time in seconds (1 hour)
+  // If notes are not found in cache, fetch from the database and update cache
+  const notes = await Note.find({ userId: new Types.ObjectId(userId) as any });
+  notes.forEach(async (note) => {
+    await redisClient.hSet(cacheKey, note._id.toString(), JSON.stringify(note));
   });
+  // await redisClient.expire(cacheKey, 3600);
 
   return notes;
 };
@@ -44,16 +46,18 @@ export const getNotesByUserId = async (userId: object) => {
 export const updateNoteById = async (noteId: string, updateData: any) => {
   const note = await Note.findByIdAndUpdate(noteId, updateData, { new: true });
   if (note) {
-    // Update note in Redis cache
-    const noteKey = `note:${note._id}`;
-    await redisClient.set(noteKey, JSON.stringify(note), { EX: 3600 });
+    // Update the note in Redis cache using the hash
+    const noteKey = `notes:${note.userId}`;
+    await redisClient.hSet(noteKey, note._id.toString(), JSON.stringify(note));
+    await redisClient.expire(noteKey, 3600);
   }
   return note;
 };
 
+// search notes by title
 export const searchNotesByTitle = async (userId: string, title: string) => {
   const notes = await Note.find({
-    userId,
+    userId: new Types.ObjectId(userId) as any,
     title: { $regex: title, $options: 'i' }, // case-insensitive search
     isTrash: false,
   });
@@ -64,9 +68,9 @@ export const searchNotesByTitle = async (userId: string, title: string) => {
 export const deleteNoteById = async (noteId: string) => {
   const note = await Note.findByIdAndDelete(noteId);
   if (note) {
-    // Remove note from Redis cache
-    const noteKey = `note:${note._id}`;
-    await redisClient.del(noteKey);
+    // Remove the note from Redis cache using the hash
+    const noteKey = `notes:${note.userId}`;
+    await redisClient.hDel(noteKey, note._id.toString());
   }
   return note;
 };
@@ -75,9 +79,10 @@ export const deleteNoteById = async (noteId: string) => {
 export const moveToTrash = async (noteId: string) => {
   const note = await Note.findByIdAndUpdate(noteId, { isTrash: true }, { new: true });
   if (note) {
-    // Update note in Redis cache
-    const noteKey = `note:${note._id}`;
-    await redisClient.set(noteKey, JSON.stringify(note), { EX: 3600 });
+    // Update the note in Redis cache
+    const noteKey = `notes:${note.userId}`;
+    await redisClient.hSet(noteKey, note._id.toString(), JSON.stringify(note));
+    await redisClient.expire(noteKey, 3600);
   }
   return note;
 };
@@ -86,9 +91,10 @@ export const moveToTrash = async (noteId: string) => {
 export const archiveNote = async (noteId: string) => {
   const note = await Note.findByIdAndUpdate(noteId, { isArchive: true }, { new: true });
   if (note) {
-    // Update note in Redis cache
-    const noteKey = `note:${note._id}`;
-    await redisClient.set(noteKey, JSON.stringify(note), { EX: 3600 });
+    // Update the note in Redis cache
+    const noteKey = `notes:${note.userId}`;
+    await redisClient.hSet(noteKey, note._id.toString(), JSON.stringify(note));
+    await redisClient.expire(noteKey, 3600);
   }
   return note;
 };
@@ -97,9 +103,10 @@ export const archiveNote = async (noteId: string) => {
 export const unarchiveNote = async (noteId: string) => {
   const note = await Note.findByIdAndUpdate(noteId, { isArchive: false }, { new: true });
   if (note) {
-    // Update note in Redis cache
-    const noteKey = `note:${note._id}`;
-    await redisClient.set(noteKey, JSON.stringify(note), { EX: 3600 });
+    // Update the note in Redis cache
+    const noteKey = `notes:${note.userId}`;
+    await redisClient.hSet(noteKey, note._id.toString(), JSON.stringify(note));
+    await redisClient.expire(noteKey, 3600);
   }
   return note;
 };

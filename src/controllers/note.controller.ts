@@ -7,13 +7,13 @@ import {
   getNotesByUserId,
   moveToTrash,
   archiveNote,
-  unarchiveNote,searchNotesByTitle
+  unarchiveNote,
 } from "../services/note.service";
 
 export default class NoteController {
   public create = async (req: Request, res: Response): Promise<void> => {
     try {
-      const note = await createNote(req.body, (req as unknown).user.id);
+      const note = await createNote(req.body, (req as any).user.id);
       res
         .status(HttpStatus.CREATED)
         .json({ message: "Note created successfully", note });

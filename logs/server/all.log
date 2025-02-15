@@ -1753,3 +1753,200 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T0
 info: Connected to the database. {"timestamp":"2025-02-14T01:44:58.621Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T01:45:22.317Z"}
 info: Connected to the database. {"timestamp":"2025-02-14T01:45:22.332Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T02:21:11.486Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T02:21:11.511Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T02:24:15.415Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T02:24:15.430Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T02:31:54.302Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T02:31:54.320Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T02:32:13.185Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T02:32:13.197Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T02:32:52.497Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T02:32:52.510Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T02:33:07.555Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T02:33:07.569Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T02:34:27.449Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T02:34:27.473Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T03:55:07.775Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T03:55:07.797Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T03:55:30.795Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T03:55:30.818Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T03:55:32.558Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T03:55:32.569Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T04:23:13.428Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T04:23:13.447Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T04:23:17.925Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T04:23:17.938Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T04:23:48.554Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T04:23:48.571Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T04:24:43.014Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T04:24:43.027Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T04:24:46.289Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T04:24:46.302Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T04:24:47.778Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T04:24:47.791Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T04:27:22.693Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T04:27:22.710Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T04:27:34.376Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T04:27:34.392Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T04:27:43.467Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T04:27:43.484Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T04:29:09.816Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T04:29:09.847Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T04:29:11.724Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T04:29:11.745Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T04:29:50.793Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T04:29:50.808Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T04:30:16.496Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T04:30:16.511Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T04:41:18.504Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T04:41:18.527Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T04:41:41.757Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T04:41:41.770Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T04:45:16.752Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T04:45:16.776Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T04:55:33.875Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T04:55:33.900Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T04:55:51.592Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T04:55:51.609Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T04:55:54.680Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T04:55:54.697Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T04:58:30.994Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T04:58:31.018Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T04:58:42.041Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T04:58:42.060Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:28:21.056Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:28:21.082Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:28:39.095Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:28:39.110Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:32:46.703Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:32:46.723Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:33:04.296Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:33:04.308Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:33:05.926Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:33:05.943Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:33:06.634Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:33:06.645Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:33:43.029Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:33:43.046Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:33:51.204Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:33:51.220Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:33:59.100Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:33:59.120Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:34:06.437Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:34:06.455Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:34:07.231Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:34:07.247Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:34:08.090Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:34:08.107Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:34:15.198Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:34:15.217Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:36:43.021Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:36:43.084Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:36:49.644Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:36:49.661Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:38:03.045Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:38:03.061Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:41:52.526Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:41:52.544Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:43:35.781Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:43:35.799Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:44:39.431Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:44:39.442Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:44:42.720Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:44:42.737Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:44:44.368Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:44:44.381Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:44:46.943Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:44:46.958Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:46:09.954Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:46:09.995Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:46:10.932Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:46:10.949Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:49:14.159Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:49:14.175Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:49:15.900Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:49:15.918Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:49:26.377Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:49:26.395Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:49:27.223Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:49:27.240Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:49:27.959Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:49:27.975Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:49:39.265Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:49:39.282Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:53:38.214Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:53:38.237Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:55:32.827Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:55:32.845Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-14T05:55:38.397Z"}
+info: Connected to the database. {"timestamp":"2025-02-14T05:55:38.412Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1311:16)
+    at listenInCluster (node:net:1359:12)
+    at Server.listen (node:net:1446:7)
+    at Function.listen (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/express/lib/application.js:635:24)
+    at App.startApp (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:70:14)
+    at new App (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:43:10)
+    at Object.<anonymous> (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:82:13)
+    at Module._compile (node:internal/modules/cjs/loader:1092:14)
+    at Module._compile (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-31883242277967994.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1121:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-31883242277967994.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-31883242277967994.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:972:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:813:14) {"date":"Sat Feb 15 2025 09:04:17 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-48,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[2.06103515625,1.8701171875,1.9462890625],"uptime":243721},"process":{"argv":["/Users/adityajaiswal/.nvm/versions/node/v15.14.0/bin/node","./src/index.ts"],"cwd":"/Volumes/MacOs Disk 1/Fundoo_Notes_App","execPath":"/Users/adityajaiswal/.nvm/versions/node/v15.14.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":19103798,"external":20090409,"heapTotal":77357056,"heapUsed":41569296,"rss":127442944},"pid":54332,"uid":501,"version":"v15.14.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1311:16)\n    at listenInCluster (node:net:1359:12)\n    at Server.listen (node:net:1446:7)\n    at Function.listen (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/express/lib/application.js:635:24)\n    at App.startApp (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:70:14)\n    at new App (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:43:10)\n    at Object.<anonymous> (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:82:13)\n    at Module._compile (node:internal/modules/cjs/loader:1092:14)\n    at Module._compile (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/source-map-support/source-map-support.js:568:25)\n    at Module.m._compile (/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-31883242277967994.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1121:10)\n    at require.extensions..jsx.require.extensions..js (/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-31883242277967994.js:114:20)\n    at require.extensions.<computed> (/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-31883242277967994.js:71:20)\n    at Object.nodeDevHook [as .ts] (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/ts-node-dev/lib/hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:972:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:813:14)","timestamp":"2025-02-15T03:34:17.868Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1311,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1359,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1446,"method":"listen","native":false},{"column":24,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/express/lib/application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":14,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts","function":"App.startApp","line":70,"method":"startApp","native":false},{"column":10,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts","function":"new App","line":43,"method":null,"native":false},{"column":13,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts","function":null,"line":82,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1092,"method":"_compile","native":false},{"column":25,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/source-map-support/source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-31883242277967994.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1121,"method":".js","native":false},{"column":20,"file":"/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-31883242277967994.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-31883242277967994.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/ts-node-dev/lib/hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":972,"method":"load","native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":813,"method":"_load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1311:16)
+    at listenInCluster (node:net:1359:12)
+    at Server.listen (node:net:1446:7)
+    at Function.listen (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/express/lib/application.js:635:24)
+    at App.startApp (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:70:14)
+    at new App (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:43:10)
+    at Object.<anonymous> (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:82:13)
+    at Module._compile (node:internal/modules/cjs/loader:1092:14)
+    at Module._compile (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-6990728492974772.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1121:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-6990728492974772.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-6990728492974772.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:972:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:813:14) {"date":"Sat Feb 15 2025 09:04:29 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-48,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[1.9775390625,1.857421875,1.9404296875],"uptime":243733},"process":{"argv":["/Users/adityajaiswal/.nvm/versions/node/v15.14.0/bin/node","./src/index.ts"],"cwd":"/Volumes/MacOs Disk 1/Fundoo_Notes_App","execPath":"/Users/adityajaiswal/.nvm/versions/node/v15.14.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":19095606,"external":20082217,"heapTotal":75522048,"heapUsed":41446296,"rss":123424768},"pid":54360,"uid":501,"version":"v15.14.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1311:16)\n    at listenInCluster (node:net:1359:12)\n    at Server.listen (node:net:1446:7)\n    at Function.listen (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/express/lib/application.js:635:24)\n    at App.startApp (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:70:14)\n    at new App (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:43:10)\n    at Object.<anonymous> (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:82:13)\n    at Module._compile (node:internal/modules/cjs/loader:1092:14)\n    at Module._compile (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/source-map-support/source-map-support.js:568:25)\n    at Module.m._compile (/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-6990728492974772.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1121:10)\n    at require.extensions..jsx.require.extensions..js (/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-6990728492974772.js:114:20)\n    at require.extensions.<computed> (/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-6990728492974772.js:71:20)\n    at Object.nodeDevHook [as .ts] (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/ts-node-dev/lib/hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:972:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:813:14)","timestamp":"2025-02-15T03:34:29.483Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1311,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1359,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1446,"method":"listen","native":false},{"column":24,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/express/lib/application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":14,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts","function":"App.startApp","line":70,"method":"startApp","native":false},{"column":10,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts","function":"new App","line":43,"method":null,"native":false},{"column":13,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts","function":null,"line":82,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1092,"method":"_compile","native":false},{"column":25,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/source-map-support/source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-6990728492974772.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1121,"method":".js","native":false},{"column":20,"file":"/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-6990728492974772.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-6990728492974772.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/ts-node-dev/lib/hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":972,"method":"load","native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":813,"method":"_load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-15T03:34:58.823Z"}
+info: Connected to the database. {"timestamp":"2025-02-15T03:34:58.836Z"}
+error: uncaughtException: Heartbeat timeout
+Error: Heartbeat timeout
+    at Heart.<anonymous> (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/amqplib/lib/connection.js:379:21)
+    at Heart.emit (node:events:369:20)
+    at Heart.runHeartbeat (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/amqplib/lib/heartbeat.js:88:7)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) {"date":"Sat Feb 15 2025 10:05:27 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.03662109375,1.91796875,1.888671875],"uptime":247391},"process":{"argv":["/Users/adityajaiswal/.nvm/versions/node/v15.14.0/bin/node","./src/index.ts"],"cwd":"/Volumes/MacOs Disk 1/Fundoo_Notes_App","execPath":"/Users/adityajaiswal/.nvm/versions/node/v15.14.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":18393015,"external":19373451,"heapTotal":35700736,"heapUsed":32937576,"rss":15003648},"pid":54414,"uid":501,"version":"v15.14.0"},"stack":"Error: Heartbeat timeout\n    at Heart.<anonymous> (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/amqplib/lib/connection.js:379:21)\n    at Heart.emit (node:events:369:20)\n    at Heart.runHeartbeat (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/amqplib/lib/heartbeat.js:88:7)\n    at listOnTimeout (node:internal/timers:557:17)\n    at processTimers (node:internal/timers:500:7)","timestamp":"2025-02-15T04:35:27.888Z","trace":[{"column":21,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/amqplib/lib/connection.js","function":null,"line":379,"method":null,"native":false},{"column":20,"file":"node:events","function":"Heart.emit","line":369,"method":"emit","native":false},{"column":7,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/amqplib/lib/heartbeat.js","function":"Heart.runHeartbeat","line":88,"method":"runHeartbeat","native":false},{"column":17,"file":"node:internal/timers","function":"listOnTimeout","line":557,"method":null,"native":false},{"column":7,"file":"node:internal/timers","function":"processTimers","line":500,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-15T05:43:30.711Z"}
+info: Connected to the database. {"timestamp":"2025-02-15T05:43:30.740Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-15T05:43:40.160Z"}
+info: Connected to the database. {"timestamp":"2025-02-15T05:43:40.183Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-15T05:43:41.215Z"}
+info: Connected to the database. {"timestamp":"2025-02-15T05:43:41.231Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-15T05:43:49.531Z"}
+info: Connected to the database. {"timestamp":"2025-02-15T05:43:49.550Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-15T05:43:51.532Z"}
+info: Connected to the database. {"timestamp":"2025-02-15T05:43:51.548Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-15T05:49:00.062Z"}
+info: Connected to the database. {"timestamp":"2025-02-15T05:49:00.085Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-15T05:49:00.841Z"}
+info: Connected to the database. {"timestamp":"2025-02-15T05:49:00.858Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-15T05:49:03.857Z"}
+info: Connected to the database. {"timestamp":"2025-02-15T05:49:03.869Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-15T05:49:09.096Z"}
+info: Connected to the database. {"timestamp":"2025-02-15T05:49:09.116Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-15T05:49:09.970Z"}
+info: Connected to the database. {"timestamp":"2025-02-15T05:49:09.986Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-15T05:49:12.330Z"}
+info: Connected to the database. {"timestamp":"2025-02-15T05:49:12.388Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-15T05:49:13.743Z"}
+info: Connected to the database. {"timestamp":"2025-02-15T05:49:13.759Z"}
