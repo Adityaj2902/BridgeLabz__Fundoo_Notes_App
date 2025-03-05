@@ -1,0 +1,76 @@
+info: ::1 - - [20/Feb/2025:01:32:09 +0000] "POST /api/v1//login HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [20/Feb/2025:01:32:29 +0000] "POST /api/v1/login HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [20/Feb/2025:01:35:37 +0000] "POST /api/v1//login HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [20/Feb/2025:01:36:01 +0000] "POST /api/v1/users/login HTTP/1.1" 400 117 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [20/Feb/2025:01:36:32 +0000] "POST /api/v1/users/login HTTP/1.1" 200 347 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Feb/2025:02:13:51 +0000] "POST /api/v1/users/login HTTP/1.1" 400 117 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [20/Feb/2025:02:15:32 +0000] "POST /api/v1/users/login HTTP/1.1" 400 176 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [20/Feb/2025:02:16:26 +0000] "POST /api/v1/users/login HTTP/1.1" 401 33 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [20/Feb/2025:02:17:54 +0000] "POST /api/v1/users/login HTTP/1.1" 200 347 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [20/Feb/2025:02:21:00 +0000] "POST /api/v1/users/login HTTP/1.1" 200 347 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [20/Feb/2025:02:21:38 +0000] "POST /api/v1/users/login HTTP/1.1" 401 33 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [20/Feb/2025:02:21:45 +0000] "POST /api/v1/users/login HTTP/1.1" 200 347 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [20/Feb/2025:04:13:02 +0000] "POST /api/v1/users/login HTTP/1.1" 200 347 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [20/Feb/2025:06:22:02 +0000] "POST /api/v1/users/login HTTP/1.1" 200 347 "http://localhost:3002/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [20/Feb/2025:06:27:59 +0000] "POST /api/v1/users/login HTTP/1.1" 401 33 "http://localhost:3002/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [20/Feb/2025:06:28:05 +0000] "POST /api/v1/users/login HTTP/1.1" 200 347 "http://localhost:3002/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [20/Feb/2025:06:58:07 +0000] "POST /api/v1/users/register HTTP/1.1" 400 94 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [20/Feb/2025:06:58:55 +0000] "POST /api/v1/users/registe HTTP/1.1" 404 47 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [20/Feb/2025:07:01:13 +0000] "POST /api/v1/users/register HTTP/1.1" 400 351 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [20/Feb/2025:07:06:49 +0000] "POST /api/v1/users/register HTTP/1.1" 500 41 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [20/Feb/2025:07:09:26 +0000] "POST /api/v1/users/register HTTP/1.1" 500 41 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [20/Feb/2025:07:10:08 +0000] "POST /api/v1/users/register HTTP/1.1" 500 41 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Feb/2025:07:10:17 +0000] "POST /api/v1/users/register HTTP/1.1" 500 39 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Feb/2025:07:10:56 +0000] "POST /api/v1/users/register HTTP/1.1" 500 49 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [20/Feb/2025:07:11:35 +0000] "POST /api/v1/users/register HTTP/1.1" 500 41 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [20/Feb/2025:07:11:57 +0000] "POST /api/v1/users/register HTTP/1.1" 500 49 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Feb/2025:07:16:54 +0000] "POST /api/v1/users/register HTTP/1.1" 500 41 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Feb/2025:07:17:00 +0000] "POST /api/v1/users/register HTTP/1.1" 500 39 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Feb/2025:07:17:04 +0000] "POST /api/v1/users/register HTTP/1.1" 500 39 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Feb/2025:07:17:07 +0000] "POST /api/v1/users/register HTTP/1.1" 500 39 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Feb/2025:07:17:15 +0000] "POST /api/v1/users/register HTTP/1.1" 500 56 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Feb/2025:07:20:20 +0000] "POST /api/v1/users/register HTTP/1.1" 500 41 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Feb/2025:07:20:26 +0000] "POST /api/v1/users/register HTTP/1.1" 500 39 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Feb/2025:07:20:30 +0000] "POST /api/v1/users/register HTTP/1.1" 201 262 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [20/Feb/2025:07:21:38 +0000] "POST /api/v1/users/register HTTP/1.1" 201 264 "http://localhost:3002/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [20/Feb/2025:07:22:47 +0000] "POST /api/v1/users/register HTTP/1.1" 400 94 "http://localhost:3002/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [20/Feb/2025:07:45:19 +0000] "POST /api/v1/users/register HTTP/1.1" 201 268 "http://localhost:3002/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36"
+
+info: ::1 - - [20/Feb/2025:08:10:28 +0000] "POST /api/v1/users/register HTTP/1.1" 201 271 "http://localhost:3003/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36"
+

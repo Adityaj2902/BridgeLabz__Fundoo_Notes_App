@@ -21,6 +21,7 @@ class UserRoutes {
     this.router.post("/login", loginValidation, this.UserController.login);
     this.router.post("/forgot-password", this.UserController.forgotPassword);
     this.router.post("/reset-password", this.UserController.resetPassword);
+    
   };
 
   public getRoutes = (): IRouter => {

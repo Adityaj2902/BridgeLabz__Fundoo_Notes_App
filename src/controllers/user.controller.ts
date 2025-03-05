@@ -112,4 +112,5 @@ export default class UserController {
         .json({ message: error.message });
     }
   };
+  
 }

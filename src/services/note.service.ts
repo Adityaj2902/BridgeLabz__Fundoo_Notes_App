@@ -87,6 +87,18 @@ export const moveToTrash = async (noteId: string) => {
   return note;
 };
 
+// move note to trash
+export const unMoveToTrash = async (noteId: string) => {
+  const note = await Note.findByIdAndUpdate(noteId, { isTrash: false }, { new: true });
+  if (note) {
+    // Update the note in Redis cache
+    const noteKey = `notes:${note.userId}`;
+    await redisClient.hSet(noteKey, note._id.toString(), JSON.stringify(note));
+    await redisClient.expire(noteKey, 3600);
+  }
+  return note;
+};
+
 // archive note
 export const archiveNote = async (noteId: string) => {
   const note = await Note.findByIdAndUpdate(noteId, { isArchive: true }, { new: true });

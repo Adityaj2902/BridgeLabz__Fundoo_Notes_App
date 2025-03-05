@@ -8,6 +8,7 @@ import {
   moveToTrash,
   archiveNote,
   unarchiveNote,
+  unMoveToTrash,
 } from "../services/note.service";
 
 export default class NoteController {
@@ -79,6 +80,21 @@ export default class NoteController {
   public moveToTrash = async (req: Request, res: Response): Promise<void> => {
     try {
       const note = await moveToTrash(req.params.id);
+      if (!note) {
+        res.status(HttpStatus.NOT_FOUND).json({ message: "Note not found" });
+        return;
+      }
+      res.status(HttpStatus.OK).json({ message: "Note moved to trash", note });
+    } catch (error: unknown) {
+      res
+        .status(HttpStatus.INTERNAL_SERVER_ERROR)
+        .json({ message: error.message });
+    }
+  };
+
+  public unMoveToTrash = async (req: Request, res: Response): Promise<void> => {
+    try {
+      const note = await unMoveToTrash(req.params.id);
       if (!note) {
         res.status(HttpStatus.NOT_FOUND).json({ message: "Note not found" });
         return;

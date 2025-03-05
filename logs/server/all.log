@@ -1950,3 +1950,194 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-15T0
 info: Connected to the database. {"timestamp":"2025-02-15T05:49:12.388Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2025-02-15T05:49:13.743Z"}
 info: Connected to the database. {"timestamp":"2025-02-15T05:49:13.759Z"}
+error: uncaughtException: Heartbeat timeout
+Error: Heartbeat timeout
+    at Heart.<anonymous> (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/amqplib/lib/connection.js:379:21)
+    at Heart.emit (node:events:369:20)
+    at Heart.runHeartbeat (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/amqplib/lib/heartbeat.js:88:7)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) {"date":"Sat Feb 15 2025 16:43:01 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.5546875,2.32763671875,2.26171875],"uptime":271246},"process":{"argv":["/Users/adityajaiswal/.nvm/versions/node/v15.14.0/bin/node","./src/index.ts"],"cwd":"/Volumes/MacOs Disk 1/Fundoo_Notes_App","execPath":"/Users/adityajaiswal/.nvm/versions/node/v15.14.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":18483220,"external":19463656,"heapTotal":36749312,"heapUsed":33593456,"rss":15925248},"pid":55383,"uid":501,"version":"v15.14.0"},"stack":"Error: Heartbeat timeout\n    at Heart.<anonymous> (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/amqplib/lib/connection.js:379:21)\n    at Heart.emit (node:events:369:20)\n    at Heart.runHeartbeat (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/amqplib/lib/heartbeat.js:88:7)\n    at listOnTimeout (node:internal/timers:557:17)\n    at processTimers (node:internal/timers:500:7)","timestamp":"2025-02-15T11:13:01.823Z","trace":[{"column":21,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/amqplib/lib/connection.js","function":null,"line":379,"method":null,"native":false},{"column":20,"file":"node:events","function":"Heart.emit","line":369,"method":"emit","native":false},{"column":7,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/amqplib/lib/heartbeat.js","function":"Heart.runHeartbeat","line":88,"method":"runHeartbeat","native":false},{"column":17,"file":"node:internal/timers","function":"listOnTimeout","line":557,"method":null,"native":false},{"column":7,"file":"node:internal/timers","function":"processTimers","line":500,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1311:16)
+    at listenInCluster (node:net:1359:12)
+    at Server.listen (node:net:1446:7)
+    at Function.listen (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/express/lib/application.js:635:24)
+    at App.startApp (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:70:14)
+    at new App (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:43:10)
+    at Object.<anonymous> (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:82:13)
+    at Module._compile (node:internal/modules/cjs/loader:1092:14)
+    at Module._compile (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-09553932316332703.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1121:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-09553932316332703.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-09553932316332703.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:972:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:813:14) {"date":"Thu Feb 20 2025 06:58:32 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-48,"port":5000,"syscall":"listen"},"exception":true,"os":{"loadavg":[2.109375,2.275390625,2.3212890625],"uptime":131074},"process":{"argv":["/Users/adityajaiswal/.nvm/versions/node/v15.14.0/bin/node","./src/index.ts"],"cwd":"/Volumes/MacOs Disk 1/Fundoo_Notes_App","execPath":"/Users/adityajaiswal/.nvm/versions/node/v15.14.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":19111990,"external":20098601,"heapTotal":74735616,"heapUsed":44043088,"rss":120369152},"pid":30051,"uid":501,"version":"v15.14.0"},"stack":"Error: listen EADDRINUSE: address already in use :::5000\n    at Server.setupListenHandle [as _listen2] (node:net:1311:16)\n    at listenInCluster (node:net:1359:12)\n    at Server.listen (node:net:1446:7)\n    at Function.listen (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/express/lib/application.js:635:24)\n    at App.startApp (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:70:14)\n    at new App (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:43:10)\n    at Object.<anonymous> (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:82:13)\n    at Module._compile (node:internal/modules/cjs/loader:1092:14)\n    at Module._compile (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/source-map-support/source-map-support.js:568:25)\n    at Module.m._compile (/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-09553932316332703.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1121:10)\n    at require.extensions..jsx.require.extensions..js (/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-09553932316332703.js:114:20)\n    at require.extensions.<computed> (/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-09553932316332703.js:71:20)\n    at Object.nodeDevHook [as .ts] (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/ts-node-dev/lib/hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:972:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:813:14)","timestamp":"2025-02-20T01:28:32.861Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1311,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1359,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1446,"method":"listen","native":false},{"column":24,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/express/lib/application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":14,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts","function":"App.startApp","line":70,"method":"startApp","native":false},{"column":10,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts","function":"new App","line":43,"method":null,"native":false},{"column":13,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts","function":null,"line":82,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1092,"method":"_compile","native":false},{"column":25,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/source-map-support/source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-09553932316332703.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1121,"method":".js","native":false},{"column":20,"file":"/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-09553932316332703.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-09553932316332703.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/ts-node-dev/lib/hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":972,"method":"load","native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":813,"method":"_load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1311:16)
+    at listenInCluster (node:net:1359:12)
+    at Server.listen (node:net:1446:7)
+    at Function.listen (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/express/lib/application.js:635:24)
+    at App.startApp (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:70:14)
+    at new App (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:43:10)
+    at Object.<anonymous> (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:82:13)
+    at Module._compile (node:internal/modules/cjs/loader:1092:14)
+    at Module._compile (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-09553932316332703.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1121:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-09553932316332703.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-09553932316332703.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:972:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:813:14) {"date":"Thu Feb 20 2025 06:59:43 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-48,"port":5000,"syscall":"listen"},"exception":true,"os":{"loadavg":[1.6806640625,2.123046875,2.2587890625],"uptime":131145},"process":{"argv":["/Users/adityajaiswal/.nvm/versions/node/v15.14.0/bin/node","./src/index.ts"],"cwd":"/Volumes/MacOs Disk 1/Fundoo_Notes_App","execPath":"/Users/adityajaiswal/.nvm/versions/node/v15.14.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":18814276,"external":19800887,"heapTotal":60055552,"heapUsed":32241328,"rss":98828288},"pid":30462,"uid":501,"version":"v15.14.0"},"stack":"Error: listen EADDRINUSE: address already in use :::5000\n    at Server.setupListenHandle [as _listen2] (node:net:1311:16)\n    at listenInCluster (node:net:1359:12)\n    at Server.listen (node:net:1446:7)\n    at Function.listen (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/express/lib/application.js:635:24)\n    at App.startApp (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:70:14)\n    at new App (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:43:10)\n    at Object.<anonymous> (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:82:13)\n    at Module._compile (node:internal/modules/cjs/loader:1092:14)\n    at Module._compile (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/source-map-support/source-map-support.js:568:25)\n    at Module.m._compile (/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-09553932316332703.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1121:10)\n    at require.extensions..jsx.require.extensions..js (/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-09553932316332703.js:114:20)\n    at require.extensions.<computed> (/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-09553932316332703.js:71:20)\n    at Object.nodeDevHook [as .ts] (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/ts-node-dev/lib/hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:972:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:813:14)","timestamp":"2025-02-20T01:29:43.479Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1311,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1359,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1446,"method":"listen","native":false},{"column":24,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/express/lib/application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":14,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts","function":"App.startApp","line":70,"method":"startApp","native":false},{"column":10,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts","function":"new App","line":43,"method":null,"native":false},{"column":13,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts","function":null,"line":82,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1092,"method":"_compile","native":false},{"column":25,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/source-map-support/source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-09553932316332703.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1121,"method":".js","native":false},{"column":20,"file":"/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-09553932316332703.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-09553932316332703.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/ts-node-dev/lib/hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":972,"method":"load","native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":813,"method":"_load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1311:16)
+    at listenInCluster (node:net:1359:12)
+    at Server.listen (node:net:1446:7)
+    at Function.listen (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/express/lib/application.js:635:24)
+    at App.startApp (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:70:14)
+    at new App (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:43:10)
+    at Object.<anonymous> (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:82:13)
+    at Module._compile (node:internal/modules/cjs/loader:1092:14)
+    at Module._compile (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/source-map-support/source-map-support.js:568:25)
+    at Module.m._compile (/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-9423300035010218.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1121:10)
+    at require.extensions..jsx.require.extensions..js (/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-9423300035010218.js:114:20)
+    at require.extensions.<computed> (/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-9423300035010218.js:71:20)
+    at Object.nodeDevHook [as .ts] (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:972:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:813:14) {"date":"Thu Feb 20 2025 06:59:57 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-48,"port":5000,"syscall":"listen"},"exception":true,"os":{"loadavg":[1.8369140625,2.1328125,2.2587890625],"uptime":131159},"process":{"argv":["/Users/adityajaiswal/.nvm/versions/node/v15.14.0/bin/node","./src/index.ts"],"cwd":"/Volumes/MacOs Disk 1/Fundoo_Notes_App","execPath":"/Users/adityajaiswal/.nvm/versions/node/v15.14.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":18999765,"external":19986376,"heapTotal":64249856,"heapUsed":36858264,"rss":110391296},"pid":30499,"uid":501,"version":"v15.14.0"},"stack":"Error: listen EADDRINUSE: address already in use :::5000\n    at Server.setupListenHandle [as _listen2] (node:net:1311:16)\n    at listenInCluster (node:net:1359:12)\n    at Server.listen (node:net:1446:7)\n    at Function.listen (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/express/lib/application.js:635:24)\n    at App.startApp (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:70:14)\n    at new App (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:43:10)\n    at Object.<anonymous> (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:82:13)\n    at Module._compile (node:internal/modules/cjs/loader:1092:14)\n    at Module._compile (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/source-map-support/source-map-support.js:568:25)\n    at Module.m._compile (/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-9423300035010218.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1121:10)\n    at require.extensions..jsx.require.extensions..js (/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-9423300035010218.js:114:20)\n    at require.extensions.<computed> (/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-9423300035010218.js:71:20)\n    at Object.nodeDevHook [as .ts] (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/ts-node-dev/lib/hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:972:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:813:14)","timestamp":"2025-02-20T01:29:57.420Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1311,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1359,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1446,"method":"listen","native":false},{"column":24,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/express/lib/application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":14,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts","function":"App.startApp","line":70,"method":"startApp","native":false},{"column":10,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts","function":"new App","line":43,"method":null,"native":false},{"column":13,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts","function":null,"line":82,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1092,"method":"_compile","native":false},{"column":25,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/source-map-support/source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-9423300035010218.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1121,"method":".js","native":false},{"column":20,"file":"/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-9423300035010218.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"/private/var/folders/_d/5fx35n2n04j019k1xcrsjzp80000gn/T/ts-node-dev-hook-9423300035010218.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/ts-node-dev/lib/hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":972,"method":"load","native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":813,"method":"_load","native":false}]}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-02-20T01:30:17.120Z"}
+info: Connected to the database. {"timestamp":"2025-02-20T01:30:17.134Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-02-20T07:16:47.505Z"}
+info: Connected to the database. {"timestamp":"2025-02-20T07:16:47.527Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-02-20T07:17:36.149Z"}
+info: Connected to the database. {"timestamp":"2025-02-20T07:17:36.165Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-02-20T07:17:38.626Z"}
+info: Connected to the database. {"timestamp":"2025-02-20T07:17:38.647Z"}
+error: uncaughtException: Heartbeat timeout
+Error: Heartbeat timeout
+    at Heart.<anonymous> (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/amqplib/lib/connection.js:379:21)
+    at Heart.emit (node:events:369:20)
+    at Heart.runHeartbeat (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/amqplib/lib/heartbeat.js:88:7)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) {"date":"Thu Feb 20 2025 14:36:35 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[7.54296875,5.75634765625,4.53759765625],"uptime":158557},"process":{"argv":["/Users/adityajaiswal/.nvm/versions/node/v15.14.0/bin/node","./src/index.ts"],"cwd":"/Volumes/MacOs Disk 1/Fundoo_Notes_App","execPath":"/Users/adityajaiswal/.nvm/versions/node/v15.14.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":18410356,"external":19390792,"heapTotal":37011456,"heapUsed":33933760,"rss":15409152},"pid":43869,"uid":501,"version":"v15.14.0"},"stack":"Error: Heartbeat timeout\n    at Heart.<anonymous> (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/amqplib/lib/connection.js:379:21)\n    at Heart.emit (node:events:369:20)\n    at Heart.runHeartbeat (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/amqplib/lib/heartbeat.js:88:7)\n    at listOnTimeout (node:internal/timers:557:17)\n    at processTimers (node:internal/timers:500:7)","timestamp":"2025-02-20T09:06:35.994Z","trace":[{"column":21,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/amqplib/lib/connection.js","function":null,"line":379,"method":null,"native":false},{"column":20,"file":"node:events","function":"Heart.emit","line":369,"method":"emit","native":false},{"column":7,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/amqplib/lib/heartbeat.js","function":"Heart.runHeartbeat","line":88,"method":"runHeartbeat","native":false},{"column":17,"file":"node:internal/timers","function":"listOnTimeout","line":557,"method":null,"native":false},{"column":7,"file":"node:internal/timers","function":"processTimers","line":500,"method":null,"native":false}]}
+error: uncaughtException: Heartbeat timeout
+Error: Heartbeat timeout
+    at Heart.<anonymous> (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/amqplib/lib/connection.js:379:21)
+    at Heart.emit (node:events:369:20)
+    at Heart.runHeartbeat (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/amqplib/lib/heartbeat.js:88:7)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) {"date":"Thu Feb 20 2025 14:36:36 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[7.54296875,5.75634765625,4.53759765625],"uptime":158558},"process":{"argv":["/Users/adityajaiswal/.nvm/versions/node/v15.14.0/bin/node","./src/index.ts"],"cwd":"/Volumes/MacOs Disk 1/Fundoo_Notes_App","execPath":"/Users/adityajaiswal/.nvm/versions/node/v15.14.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":18434956,"external":19415432,"heapTotal":37273600,"heapUsed":34573600,"rss":19382272},"pid":43869,"uid":501,"version":"v15.14.0"},"stack":"Error: Heartbeat timeout\n    at Heart.<anonymous> (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/amqplib/lib/connection.js:379:21)\n    at Heart.emit (node:events:369:20)\n    at Heart.runHeartbeat (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/amqplib/lib/heartbeat.js:88:7)\n    at listOnTimeout (node:internal/timers:557:17)\n    at processTimers (node:internal/timers:500:7)","timestamp":"2025-02-20T09:06:36.007Z","trace":[{"column":21,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/amqplib/lib/connection.js","function":null,"line":379,"method":null,"native":false},{"column":20,"file":"node:events","function":"Heart.emit","line":369,"method":"emit","native":false},{"column":7,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/amqplib/lib/heartbeat.js","function":"Heart.runHeartbeat","line":88,"method":"runHeartbeat","native":false},{"column":17,"file":"node:internal/timers","function":"listOnTimeout","line":557,"method":null,"native":false},{"column":7,"file":"node:internal/timers","function":"processTimers","line":500,"method":null,"native":false}]}
+error: uncaughtException: Heartbeat timeout
+Error: Heartbeat timeout
+    at Heart.<anonymous> (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/amqplib/lib/connection.js:379:21)
+    at Heart.emit (node:events:369:20)
+    at Heart.runHeartbeat (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/amqplib/lib/heartbeat.js:88:7)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) {"date":"Thu Feb 20 2025 14:36:36 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[7.54296875,5.75634765625,4.53759765625],"uptime":158558},"process":{"argv":["/Users/adityajaiswal/.nvm/versions/node/v15.14.0/bin/node","./src/index.ts"],"cwd":"/Volumes/MacOs Disk 1/Fundoo_Notes_App","execPath":"/Users/adityajaiswal/.nvm/versions/node/v15.14.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":18459532,"external":19440008,"heapTotal":37273600,"heapUsed":34905536,"rss":19791872},"pid":43869,"uid":501,"version":"v15.14.0"},"stack":"Error: Heartbeat timeout\n    at Heart.<anonymous> (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/amqplib/lib/connection.js:379:21)\n    at Heart.emit (node:events:369:20)\n    at Heart.runHeartbeat (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/amqplib/lib/heartbeat.js:88:7)\n    at listOnTimeout (node:internal/timers:557:17)\n    at processTimers (node:internal/timers:500:7)","timestamp":"2025-02-20T09:06:36.010Z","trace":[{"column":21,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/amqplib/lib/connection.js","function":null,"line":379,"method":null,"native":false},{"column":20,"file":"node:events","function":"Heart.emit","line":369,"method":"emit","native":false},{"column":7,"file":"/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/amqplib/lib/heartbeat.js","function":"Heart.runHeartbeat","line":88,"method":"runHeartbeat","native":false},{"column":17,"file":"node:internal/timers","function":"listOnTimeout","line":557,"method":null,"native":false},{"column":7,"file":"node:internal/timers","function":"processTimers","line":500,"method":null,"native":false}]}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-02-21T05:23:08.409Z"}
+info: Connected to the database. {"timestamp":"2025-02-21T05:23:08.443Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-02-21T06:00:12.352Z"}
+info: Connected to the database. {"timestamp":"2025-02-21T06:00:12.383Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-02-21T06:00:13.638Z"}
+info: Connected to the database. {"timestamp":"2025-02-21T06:00:13.652Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-02-21T06:00:17.140Z"}
+info: Connected to the database. {"timestamp":"2025-02-21T06:00:17.156Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-02-21T06:00:18.817Z"}
+info: Connected to the database. {"timestamp":"2025-02-21T06:00:18.836Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-02-21T06:00:21.046Z"}
+info: Connected to the database. {"timestamp":"2025-02-21T06:00:21.061Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-02-21T06:00:23.425Z"}
+info: Connected to the database. {"timestamp":"2025-02-21T06:00:23.442Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-02-21T06:00:24.983Z"}
+info: Connected to the database. {"timestamp":"2025-02-21T06:00:25.002Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-02-21T06:03:05.387Z"}
+info: Connected to the database. {"timestamp":"2025-02-21T06:03:05.416Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-02-25T09:25:30.591Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/mongoose/lib/connection.js:847:32)\n    at /Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/mongoose/lib/index.js:351:10\n    at /Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/mongoose/lib/index.js:1149:10)\n    at Mongoose.connect (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/mongoose/lib/index.js:350:20)\n    at Database.<anonymous> (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/config/database.ts:21:22)\n    at Generator.next (<anonymous>)\n    at /Volumes/MacOs Disk 1/Fundoo_Notes_App/src/config/database.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/config/database.ts:4:12)\n    at Database.initializeDatabase (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/config/database.ts:19:57)\n    at App.initializeDatabase (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:56:13)\n    at new App (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:41:10)\n    at Object.<anonymous> (/Volumes/MacOs Disk 1/Fundoo_Notes_App/src/index.ts:82:13)","timestamp":"2025-02-25T09:26:00.616Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-02-25T09:39:31.769Z"}
+info: Connected to the database. {"timestamp":"2025-02-25T09:39:31.783Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-02-26T15:05:27.189Z"}
+info: Connected to the database. {"timestamp":"2025-02-26T15:05:27.221Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 64
+    at JSON.parse (<anonymous>)
+    at parse (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/body-parser/lib/types/json.js:92:19)
+    at /Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/raw-body/index.js:238:16)
+    at done (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/raw-body/index.js:227:7)
+    at IncomingMessage.onEnd (/Volumes/MacOs Disk 1/Fundoo_Notes_App/node_modules/raw-body/index.js:287:7)
+    at IncomingMessage.emit (node:events:381:22)
+    at endReadableNT (node:internal/streams/readable:1307:12)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-26T15:11:50.639Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-02-27T04:48:00.667Z"}
+info: Connected to the database. {"timestamp":"2025-02-27T04:48:00.701Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-02-28T05:22:56.709Z"}
+info: Connected to the database. {"timestamp":"2025-02-28T05:22:56.725Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-02-28T07:53:19.029Z"}
+info: Connected to the database. {"timestamp":"2025-02-28T07:53:19.046Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-02-28T09:43:54.539Z"}
+info: Connected to the database. {"timestamp":"2025-02-28T09:43:54.564Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-02-28T09:43:56.927Z"}
+info: Connected to the database. {"timestamp":"2025-02-28T09:43:56.947Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-02-28T09:43:57.750Z"}
+info: Connected to the database. {"timestamp":"2025-02-28T09:43:57.766Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-02-28T09:43:59.586Z"}
+info: Connected to the database. {"timestamp":"2025-02-28T09:43:59.603Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-02-28T09:44:00.627Z"}
+info: Connected to the database. {"timestamp":"2025-02-28T09:44:00.643Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-02-28T09:44:04.859Z"}
+info: Connected to the database. {"timestamp":"2025-02-28T09:44:04.876Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-03-01T15:09:31.399Z"}
+info: Connected to the database. {"timestamp":"2025-03-01T15:09:31.432Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-03-03T00:27:58.124Z"}
+info: Connected to the database. {"timestamp":"2025-03-03T00:27:58.144Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-03-03T23:55:48.968Z"}
+info: Connected to the database. {"timestamp":"2025-03-03T23:55:48.999Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-03-04T00:18:03.071Z"}
+info: Connected to the database. {"timestamp":"2025-03-04T00:18:03.098Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-03-04T03:48:23.171Z"}
+info: Connected to the database. {"timestamp":"2025-03-04T03:48:23.203Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-03-04T04:13:20.575Z"}
+info: Connected to the database. {"timestamp":"2025-03-04T04:13:20.591Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-03-04T05:01:32.998Z"}
+info: Connected to the database. {"timestamp":"2025-03-04T05:01:33.020Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-03-04T05:01:34.106Z"}
+info: Connected to the database. {"timestamp":"2025-03-04T05:01:34.121Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-03-04T05:01:38.496Z"}
+info: Connected to the database. {"timestamp":"2025-03-04T05:01:38.512Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-03-04T05:01:40.346Z"}
+info: Connected to the database. {"timestamp":"2025-03-04T05:01:40.363Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-03-04T05:01:41.749Z"}
+info: Connected to the database. {"timestamp":"2025-03-04T05:01:41.765Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-03-04T05:01:55.376Z"}
+info: Connected to the database. {"timestamp":"2025-03-04T05:01:55.392Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-03-04T05:01:58.485Z"}
+info: Connected to the database. {"timestamp":"2025-03-04T05:01:58.501Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-03-04T05:02:03.324Z"}
+info: Connected to the database. {"timestamp":"2025-03-04T05:02:03.339Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-03-04T05:02:06.023Z"}
+info: Connected to the database. {"timestamp":"2025-03-04T05:02:06.041Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-03-04T05:02:07.360Z"}
+info: Connected to the database. {"timestamp":"2025-03-04T05:02:07.376Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-03-04T05:02:08.193Z"}
+info: Connected to the database. {"timestamp":"2025-03-04T05:02:08.207Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-03-04T05:02:19.439Z"}
+info: Connected to the database. {"timestamp":"2025-03-04T05:02:19.455Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-03-04T05:02:34.050Z"}
+info: Connected to the database. {"timestamp":"2025-03-04T05:02:34.066Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-03-04T05:02:38.845Z"}
+info: Connected to the database. {"timestamp":"2025-03-04T05:02:38.859Z"}
+info: Server started at http://localhost:5500/api/v1/ {"timestamp":"2025-03-04T05:02:41.643Z"}
+info: Connected to the database. {"timestamp":"2025-03-04T05:02:41.659Z"}

@@ -1,0 +1,1006 @@
+info: ::1 - - [03/Mar/2025:23:56:19 +0000] "POST /api/v1/users/login HTTP/1.1" 200 347 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/Mar/2025:23:56:19 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/Mar/2025:23:56:19 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/Mar/2025:23:56:28 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/Mar/2025:23:56:28 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/Mar/2025:23:56:29 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/Mar/2025:23:56:29 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/Mar/2025:23:56:30 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/Mar/2025:23:56:30 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:10:36 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:10:36 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:10:36 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:10:36 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:10:42 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:10:42 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:10:42 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:10:42 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:10:48 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:10:48 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:10:48 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:10:48 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:10:49 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:10:49 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:10:49 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:10:49 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:10:53 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:10:53 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:10:53 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:10:53 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:10:58 +0000] "PUT /api/v1/notes/67bf2f5190249228b294f9d5/trash HTTP/1.1" 200 243 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:11:00 +0000] "PUT /api/v1/notes/67b838159d271b14ca35e416 HTTP/1.1" 200 249 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:11:04 +0000] "PUT /api/v1/notes/67b838159d271b14ca35e416/trash HTTP/1.1" 200 243 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:11:05 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 2463 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:11:05 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:11:05 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:11:05 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:11:12 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:11:12 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:11:12 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:11:12 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:11:52 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:11:52 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:11:52 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:11:52 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:11:54 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:11:54 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:11:54 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:11:54 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:11:55 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:11:55 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:11:55 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:11:55 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:18:33 +0000] "POST /api/v1/users/login HTTP/1.1" 200 347 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:18:33 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:18:33 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:18:40 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:18:40 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:18:45 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:18:45 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:24:15 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:24:15 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:24:21 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:24:21 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:28:28 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:28:28 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:32:34 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:32:34 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:35:09 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:35:09 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:35:15 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:35:15 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:35:42 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:35:42 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:35:44 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:35:44 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:35:45 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:35:45 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:35:45 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:35:46 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:35:54 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:35:54 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:36:10 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:36:10 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:36:11 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:36:11 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:15 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:15 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:41 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:41 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:43 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:43 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:43 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:43 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:44 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:44 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:44 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:44 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:44 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:44 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:44 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:44 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:44 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:44 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:45 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:45 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:45 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:45 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:45 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:45 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:45 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:45 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:45 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:45 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:45 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:45 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:46 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:46 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:59 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:37:59 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:40:09 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:40:09 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:43:10 +0000] "POST /api/v1/notes HTTP/1.1" 201 244 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:43:52 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 2661 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:43:52 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:44:15 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:44:15 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:44:38 +0000] "POST /api/v1/notes HTTP/1.1" 201 250 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:44:55 +0000] "POST /api/v1/notes HTTP/1.1" 500 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:44:56 +0000] "POST /api/v1/notes HTTP/1.1" 500 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:44:57 +0000] "POST /api/v1/notes HTTP/1.1" 500 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:45:01 +0000] "POST /api/v1/notes HTTP/1.1" 201 254 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:45:49 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 3073 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:45:49 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:46:09 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:46:09 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:46:16 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:46:16 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:46:57 +0000] "POST /api/v1/notes HTTP/1.1" 201 262 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:49:52 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 3289 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:49:52 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:50:25 +0000] "POST /api/v1/notes HTTP/1.1" 500 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:50:43 +0000] "POST /api/v1/notes HTTP/1.1" 500 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:50:44 +0000] "POST /api/v1/notes HTTP/1.1" 500 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:50:45 +0000] "POST /api/v1/notes HTTP/1.1" 500 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:50:46 +0000] "POST /api/v1/notes HTTP/1.1" 500 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:50:46 +0000] "POST /api/v1/notes HTTP/1.1" 500 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:50:47 +0000] "POST /api/v1/notes HTTP/1.1" 500 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:50:51 +0000] "POST /api/v1/notes HTTP/1.1" 201 272 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:51:41 +0000] "POST /api/v1/notes HTTP/1.1" 201 271 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:53:55 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 3740 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:53:59 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:53:59 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:55:25 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:55:25 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:55:35 +0000] "PUT /api/v1/notes/67c64e9d3de98a7ffb2213e5/trash HTTP/1.1" 200 264 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:55:37 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 3739 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:55:37 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:55:41 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:55:41 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:55:43 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:55:43 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:55:48 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:55:48 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:56:09 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:56:09 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:56:11 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:56:11 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:56:12 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:56:12 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:56:24 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:00:56:24 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:01:05:11 +0000] "POST /api/v1/notes HTTP/1.1" 201 242 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:01:07:28 +0000] "POST /api/v1/notes HTTP/1.1" 201 237 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:01:08:05 +0000] "POST /api/v1/notes HTTP/1.1" 201 243 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:01:10:41 +0000] "POST /api/v1/users/login HTTP/1.1" 200 347 "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:01:10:41 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 4323 "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:01:10:41 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:01:12:40 +0000] "POST /api/v1/users/login HTTP/1.1" 200 347 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:01:12:40 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:01:12:40 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:01:12:57 +0000] "POST /api/v1/notes HTTP/1.1" 201 282 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:01:13:46 +0000] "POST /api/v1/notes HTTP/1.1" 500 70 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:01:13:47 +0000] "POST /api/v1/notes HTTP/1.1" 500 70 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:01:13:49 +0000] "POST /api/v1/notes HTTP/1.1" 500 70 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:01:13:53 +0000] "POST /api/v1/notes HTTP/1.1" 500 70 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:01:13:54 +0000] "POST /api/v1/notes HTTP/1.1" 500 70 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:01:13:59 +0000] "POST /api/v1/notes HTTP/1.1" 500 70 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:01:14:03 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 4559 "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:01:14:03 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:03:48:33 +0000] "POST /api/v1/users/login HTTP/1.1" 200 347 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:03:48:33 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 4559 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:03:48:33 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 4559 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:03:49:00 +0000] "POST /api/v1/notes HTTP/1.1" 201 293 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:03:55:01 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 4806 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:03:55:01 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:03:55:08 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:03:55:08 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:03:58:00 +0000] "POST /api/v1/notes HTTP/1.1" 201 257 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:03:16 +0000] "POST /api/v1/notes HTTP/1.1" 201 230 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:04:42 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 5201 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:04:42 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:13:52 +0000] "POST /api/users/login HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:14:18 +0000] "POST /api/v1/users/login HTTP/1.1" 200 347 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:14:18 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:14:18 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:14:18 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:14:25 +0000] "PUT /api/v1/notes/67c546715f8d052b8c504265 HTTP/1.1" 200 238 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:14:34 +0000] "PATCH /api/v1/notes/67c546715f8d052b8c504265/isTrash HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:14:36 +0000] "PATCH /api/v1/notes/67c546715f8d052b8c504265/isTrash HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:14:38 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 5201 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:14:40 +0000] "DELETE /api/v1/notes/67c64e9d3de98a7ffb2213e5 HTTP/1.1" 200 39 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:14:42 +0000] "PATCH /api/v1/notes/67b817679d271b14ca35e411/isTrash HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:14:42 +0000] "PATCH /api/v1/notes/67b817679d271b14ca35e411/isTrash HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:14:44 +0000] "DELETE /api/v1/notes/67b817679d271b14ca35e411 HTTP/1.1" 200 39 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:14:45 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 4773 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:14:46 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:14:48 +0000] "PATCH /api/v1/notes/67c64cf63de98a7ffb2213d3/isArchive HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:15:02 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 241 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:16:07 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 4968 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:16:08 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:16:09 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:16:36 +0000] "GET /api/v1/wnotes/ HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:16:38 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:18:55 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 237 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:19:21 +0000] "PATCH /api/v1/notes/67c546715f8d052b8c504265/isTrash HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:19:31 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 5159 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:19:31 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:19:31 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:19:37 +0000] "PATCH /api/v1/notes/67c652503de98a7ffb2213ea/isTrash HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:20:14 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:20:15 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:20:20 +0000] "PATCH /api/v1/notes/67c67e46d6d8ba461f26643f/trash HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:21:22 +0000] "PATCH /api/v1/notes/67c64cf63de98a7ffb2213d3/isArchive HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:22:00 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:22:03 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:22:13 +0000] "PATCH /api/v1/notes/67c67e46d6d8ba461f26643f/archive HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:22:21 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:22:21 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:22:21 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:22:23 +0000] "PATCH /api/v1/notes/67c67e46d6d8ba461f26643f/archive HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:23:10 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:23:13 +0000] "PUT /api/v1/notes/67c67e46d6d8ba461f26643f/archive HTTP/1.1" 200 228 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:23:27 +0000] "PATCH /api/v1/notes/67c64cf63de98a7ffb2213d3/trash HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:23:43 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 5158 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:23:46 +0000] "PUT /api/v1/notes/67c64cf63de98a7ffb2213d3/archive HTTP/1.1" 200 237 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:23:52 +0000] "PUT /api/v1/notes/67c6782c35a43b34f30707b6 HTTP/1.1" 200 293 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:24:05 +0000] "PUT /api/v1/notes/67c64d0d3de98a7ffb2213d8/trash HTTP/1.1" 200 247 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:24:22 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 5156 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:24:23 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:24:23 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:24:43 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:25:31 +0000] "PUT /api/v1/notes/67bf2f5190249228b294f9d5/trash HTTP/1.1" 200 243 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:25:33 +0000] "PUT /api/v1/notes/67ac73edb16de60f1719c8a8/trash HTTP/1.1" 200 286 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:25:35 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:25:58 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 272 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:26:00 +0000] "PUT /api/v1/notes/67c680d6d6d8ba461f266449/trash HTTP/1.1" 200 265 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:26:01 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 5381 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:26:14 +0000] "PUT /api/v1/notes/67c680d6d6d8ba461f266449/trash HTTP/1.1" 200 265 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:26:15 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:26:38 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:26:41 +0000] "PUT /api/v1/notes/67b838139d271b14ca35e414/trash HTTP/1.1" 200 248 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:26:43 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:26:46 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:26:46 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:26:46 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:26:47 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:26:48 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:27:11 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:28:03 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:28:03 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:28:03 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:30:15 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:30:15 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:30:15 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:30:50 +0000] "PUT /api/v1/notes/67c6782c35a43b34f30707b6 HTTP/1.1" 200 309 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:31:04 +0000] "PUT /api/v1/notes/67c6782c35a43b34f30707b6 HTTP/1.1" 200 330 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:31:10 +0000] "PUT /api/v1/notes/67c6782c35a43b34f30707b6 HTTP/1.1" 200 330 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:32:56 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:33:01 +0000] "PUT /api/v1/notes/67c64e6b3de98a7ffb2213e3/trash HTTP/1.1" 200 265 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:33:13 +0000] "PUT /api/v1/notes/67c6782c35a43b34f30707b6 HTTP/1.1" 200 330 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:40:28 +0000] "PUT /api/v1/notes/67c6782c35a43b34f30707b6 HTTP/1.1" 200 330 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:40:31 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 5417 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:40:31 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:40:31 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:40:34 +0000] "PUT /api/v1/notes/67c6782c35a43b34f30707b6 HTTP/1.1" 200 330 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:40:36 +0000] "PUT /api/v1/notes/67c652753de98a7ffb2213ec HTTP/1.1" 200 243 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:40:40 +0000] "PUT /api/v1/notes/67c6782c35a43b34f30707b6 HTTP/1.1" 200 330 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:40:43 +0000] "PUT /api/v1/notes/67c652753de98a7ffb2213ec HTTP/1.1" 200 243 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:40:46 +0000] "PUT /api/v1/notes/67c652753de98a7ffb2213ec HTTP/1.1" 200 243 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:41:00 +0000] "PUT /api/v1/notes/67c652753de98a7ffb2213ec HTTP/1.1" 200 243 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:41:04 +0000] "PUT /api/v1/notes/67c652753de98a7ffb2213ec HTTP/1.1" 200 243 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:44:21 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:47:58 +0000] "PUT /api/v1/notes/67b8170441e96611650896d2/trash HTTP/1.1" 200 240 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:48:03 +0000] "PUT /api/v1/notes/67bff1e11d047c4b4ce465d4/trash HTTP/1.1" 200 254 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:48:06 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:48:12 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:48:12 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:48:12 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:48:15 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:48:31 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:48:35 +0000] "PUT /api/v1/notes/67c652753de98a7ffb2213ec/archive HTTP/1.1" 200 230 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:48:37 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 5416 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:48:39 +0000] "PUT /api/v1/notes/67c67e46d6d8ba461f26643f/archive HTTP/1.1" 200 228 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:48:41 +0000] "PUT /api/v1/notes/67c64cf63de98a7ffb2213d3/archive HTTP/1.1" 200 237 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:48:42 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:48:52 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 232 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:48:54 +0000] "PUT /api/v1/notes/67c68634d6d8ba461f266461 HTTP/1.1" 200 232 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:48:55 +0000] "PUT /api/v1/notes/67c68634d6d8ba461f266461/archive HTTP/1.1" 200 219 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:48:55 +0000] "PUT /api/v1/notes/67c68634d6d8ba461f266461/archive HTTP/1.1" 200 219 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:48:57 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 5601 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:48:58 +0000] "PUT /api/v1/notes/67c68634d6d8ba461f266461/archive HTTP/1.1" 200 219 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:49:00 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:49:04 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:49:04 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:49:04 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:49:08 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:50:02 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:50:08 +0000] "PUT /api/v1/notes/67c652503de98a7ffb2213ea/archive HTTP/1.1" 200 224 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:50:11 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 5600 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:50:12 +0000] "PUT /api/v1/notes/67c68634d6d8ba461f266461/archive HTTP/1.1" 200 219 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:50:31 +0000] "PUT /api/v1/notes/67c652503de98a7ffb2213ea/archive HTTP/1.1" 200 224 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:50:38 +0000] "PUT /api/v1/notes/67c652753de98a7ffb2213ec/archive HTTP/1.1" 200 230 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:50:39 +0000] "PUT /api/v1/notes/67c64cf63de98a7ffb2213d3/archive HTTP/1.1" 200 237 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:50:40 +0000] "PUT /api/v1/notes/67c67e46d6d8ba461f26643f/archive HTTP/1.1" 200 228 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:50:42 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:50:49 +0000] "DELETE /api/v1/notes/67b8170441e96611650896d2 HTTP/1.1" 200 39 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:50:54 +0000] "DELETE /api/v1/notes/67bf2f5190249228b294f9d5 HTTP/1.1" 200 39 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:50:55 +0000] "DELETE /api/v1/notes/67c680d6d6d8ba461f266449 HTTP/1.1" 200 39 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:50:56 +0000] "DELETE /api/v1/notes/67ac73edb16de60f1719c8a8 HTTP/1.1" 200 39 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:50:58 +0000] "DELETE /api/v1/notes/67b838159d271b14ca35e416 HTTP/1.1" 200 39 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:50:58 +0000] "DELETE /api/v1/notes/67b838159d271b14ca35e416 HTTP/1.1" 404 28 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:50:59 +0000] "DELETE /api/v1/notes/67b838139d271b14ca35e414 HTTP/1.1" 200 39 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:51:01 +0000] "DELETE /api/v1/notes/67bfeea21d047c4b4ce465d2 HTTP/1.1" 200 39 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:51:02 +0000] "DELETE /api/v1/notes/67c64d0d3de98a7ffb2213d8 HTTP/1.1" 200 39 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:51:03 +0000] "DELETE /api/v1/notes/67c64e6b3de98a7ffb2213e3 HTTP/1.1" 200 39 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:51:04 +0000] "DELETE /api/v1/notes/67c151bb5154b29b63604586 HTTP/1.1" 200 39 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:51:05 +0000] "DELETE /api/v1/notes/67bff1e11d047c4b4ce465d4 HTTP/1.1" 200 39 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:51:06 +0000] "DELETE /api/v1/notes/67bf3b3c90249228b294f9e2 HTTP/1.1" 200 39 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:51:07 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 3074 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:51:10 +0000] "PUT /api/v1/notes/67c68634d6d8ba461f266461/trash HTTP/1.1" 200 224 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:51:12 +0000] "PUT /api/v1/notes/67c68634d6d8ba461f266461/trash HTTP/1.1" 200 224 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:51:13 +0000] "PUT /api/v1/notes/67c68634d6d8ba461f266461/archive HTTP/1.1" 200 218 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:51:17 +0000] "PUT /api/v1/notes/67c652503de98a7ffb2213ea/archive HTTP/1.1" 200 224 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:52:51 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 3073 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:52:52 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:52:57 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:53:14 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:53:29 +0000] "PUT /api/v1/notes/67c68634d6d8ba461f266461/trash HTTP/1.1" 200 224 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:53:31 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:53:39 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:54:15 +0000] "PUT /api/v1/notes/67c68634d6d8ba461f266461/trash HTTP/1.1" 200 224 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:54:22 +0000] "PUT /api/v1/notes/67c68634d6d8ba461f266461/unarchive HTTP/1.1" 200 221 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:54:25 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 3074 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:54:29 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:54:31 +0000] "DELETE /api/v1/notes/67c68634d6d8ba461f266461 HTTP/1.1" 200 39 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:54:32 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 2889 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:54:35 +0000] "PUT /api/v1/notes/67c652503de98a7ffb2213ea/trash HTTP/1.1" 200 229 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:54:37 +0000] "DELETE /api/v1/notes/67c652503de98a7ffb2213ea HTTP/1.1" 200 39 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:54:40 +0000] "PUT /api/v1/notes/67c652503de98a7ffb2213ea/trash HTTP/1.1" 404 28 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:54:42 +0000] "PUT /api/v1/notes/67c652503de98a7ffb2213ea/trash HTTP/1.1" 404 28 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:55:57 +0000] "PUT /api/v1/notes/67c652503de98a7ffb2213ea/trash HTTP/1.1" 404 28 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:56:00 +0000] "PUT /api/v1/notes/67c652503de98a7ffb2213ea/trash HTTP/1.1" 404 28 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:56:02 +0000] "PUT /api/v1/notes/67c652503de98a7ffb2213ea/unarchive HTTP/1.1" 404 28 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:56:03 +0000] "PUT /api/v1/notes/67c652503de98a7ffb2213ea/unarchive HTTP/1.1" 404 28 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:56:11 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 2699 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:56:11 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:56:11 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:56:13 +0000] "PUT /api/v1/notes/67c652753de98a7ffb2213ec/unarchive HTTP/1.1" 200 233 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:56:15 +0000] "PUT /api/v1/notes/67c64cf63de98a7ffb2213d3/unarchive HTTP/1.1" 200 240 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:56:16 +0000] "PUT /api/v1/notes/67c67e46d6d8ba461f26643f/unarchive HTTP/1.1" 200 231 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:56:17 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 2702 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:56:23 +0000] "PUT /api/v1/notes/67c653993de98a7ffb2213f0/trash HTTP/1.1" 200 275 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:56:25 +0000] "PUT /api/v1/notes/67c67b8435a43b34f30707ba/trash HTTP/1.1" 200 223 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:56:28 +0000] "PUT /api/v1/notes/67c64d813de98a7ffb2213da/trash HTTP/1.1" 200 255 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:56:31 +0000] "PUT /api/v1/notes/67c546715f8d052b8c504265/trash HTTP/1.1" 200 231 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:56:33 +0000] "PUT /api/v1/notes/67bf3b1190249228b294f9e0/trash HTTP/1.1" 200 226 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:56:35 +0000] "PUT /api/v1/notes/67c651c73de98a7ffb2213e8/trash HTTP/1.1" 200 235 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:56:38 +0000] "PUT /api/v1/notes/67c64c9e3de98a7ffb2213d1/trash HTTP/1.1" 200 237 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:56:43 +0000] "PUT /api/v1/notes/67c67f2fd6d8ba461f266441/trash HTTP/1.1" 200 230 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:56:45 +0000] "PUT /api/v1/notes/67c652753de98a7ffb2213ec/trash HTTP/1.1" 200 236 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:56:48 +0000] "PUT /api/v1/notes/67c64cf63de98a7ffb2213d3/trash HTTP/1.1" 200 243 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:56:51 +0000] "PUT /api/v1/notes/67c67e46d6d8ba461f26643f/trash HTTP/1.1" 200 234 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:56:58 +0000] "PUT /api/v1/notes/67c67a4835a43b34f30707b8/trash HTTP/1.1" 200 250 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:57:02 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 2690 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:57:02 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:57:02 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:57:28 +0000] "PUT /api/v1/notes/67c6782c35a43b34f30707b6 HTTP/1.1" 200 273 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:57:31 +0000] "PUT /api/v1/notes/67c6782c35a43b34f30707b6/trash HTTP/1.1" 200 266 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:57:34 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 2632 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:57:36 +0000] "DELETE /api/v1/notes/67c653993de98a7ffb2213f0 HTTP/1.1" 200 39 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:57:37 +0000] "DELETE /api/v1/notes/67c67f2fd6d8ba461f266441 HTTP/1.1" 200 39 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:57:38 +0000] "DELETE /api/v1/notes/67c67b8435a43b34f30707ba HTTP/1.1" 200 39 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:57:40 +0000] "DELETE /api/v1/notes/67c67a4835a43b34f30707b8 HTTP/1.1" 200 39 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:57:42 +0000] "DELETE /api/v1/notes/67c64d813de98a7ffb2213da HTTP/1.1" 200 39 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:57:44 +0000] "DELETE /api/v1/notes/67c64c9e3de98a7ffb2213d1 HTTP/1.1" 200 39 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:57:45 +0000] "DELETE /api/v1/notes/67c546715f8d052b8c504265 HTTP/1.1" 200 39 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:57:46 +0000] "DELETE /api/v1/notes/67c651c73de98a7ffb2213e8 HTTP/1.1" 200 39 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:57:49 +0000] "DELETE /api/v1/notes/67bf3b1190249228b294f9e0 HTTP/1.1" 200 39 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:57:50 +0000] "DELETE /api/v1/notes/67c652753de98a7ffb2213ec HTTP/1.1" 200 39 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:57:52 +0000] "DELETE /api/v1/notes/67c6782c35a43b34f30707b6 HTTP/1.1" 200 39 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:57:53 +0000] "DELETE /api/v1/notes/67c64cf63de98a7ffb2213d3 HTTP/1.1" 200 39 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:57:54 +0000] "DELETE /api/v1/notes/67c67e46d6d8ba461f26643f HTTP/1.1" 200 39 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:57:55 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 12 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:58:04 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 232 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:58:09 +0000] "PUT /api/v1/notes/67c6885cd6d8ba461f2664a9/archive HTTP/1.1" 200 219 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:58:11 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 196 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:58:13 +0000] "PUT /api/v1/notes/67c6885cd6d8ba461f2664a9/unarchive HTTP/1.1" 200 222 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:58:14 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 197 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:58:17 +0000] "PUT /api/v1/notes/67c6885cd6d8ba461f2664a9/trash HTTP/1.1" 200 225 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:58:19 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 196 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:58:21 +0000] "PUT /api/v1/notes/67c6885cd6d8ba461f2664a9/unarchive HTTP/1.1" 200 221 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:58:36 +0000] "PUT /api/v1/notes/67c6885cd6d8ba461f2664a9/unarchive HTTP/1.1" 200 221 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:58:40 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:58:42 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:58:45 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:58:45 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:58:45 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:58:47 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:58:48 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:58:49 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:58:51 +0000] "PUT /api/v1/notes/67c6885cd6d8ba461f2664a9/unarchive HTTP/1.1" 200 221 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:59:23 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:59:25 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:59:31 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:59:39 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 234 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:59:41 +0000] "PUT /api/v1/notes/67c688bbd6d8ba461f2664b2/archive HTTP/1.1" 200 221 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:59:42 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 383 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:59:50 +0000] "PUT /api/v1/notes/67c688bbd6d8ba461f2664b2/unarchive HTTP/1.1" 200 224 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:04:59:51 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 384 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:02:54 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:03:03 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:03:11 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:03:48 +0000] "PUT /api/v1/notes/67c6885cd6d8ba461f2664a9/untrash HTTP/1.1" 200 226 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:03:50 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 385 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:03:55 +0000] "PUT /api/v1/notes/67c688bbd6d8ba461f2664b2/trash HTTP/1.1" 200 227 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:03:56 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 384 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:03:58 +0000] "PUT /api/v1/notes/67c688bbd6d8ba461f2664b2/untrash HTTP/1.1" 200 228 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:03:59 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 385 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:04:01 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:04:02 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:05:24 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:05:24 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:06:23 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 70 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:06:31 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 230 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:06:41 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 227 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:06:59 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 750 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:06:59 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:06:59 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:06:59 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:07:39 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 232 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:08:41 +0000] "PUT /api/v1/notes/67c68a9bd21dc755eae221d4 HTTP/1.1" 200 232 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:17:53 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:17:53 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:17:53 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:18:44 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:18:44 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:18:44 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:19:52 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:19:52 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:19:52 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:20:14 +0000] "POST /api/v1/notes/ HTTP/1.1" 400 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:20:26 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:20:28 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:20:29 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:20:47 +0000] "POST /api/v1/users/login HTTP/1.1" 200 347 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:20:47 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 936 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:20:47 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:20:47 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:24:00 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:24:00 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:43:46 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 247 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:44:05 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 1137 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:44:06 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:44:07 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:44:09 +0000] "PUT /api/v1/notes/67c68a57d21dc755eae221d0/archive HTTP/1.1" 200 217 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:44:09 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 1136 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:05:44:11 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:06:18:25 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:06:18:25 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:06:18:25 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:06:18:27 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:06:19:27 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:06:19:27 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:06:19:59 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 230 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:06:20:15 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 1320 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:06:20:15 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:06:21:30 +0000] "POST /api/v1/notes/ HTTP/1.1" 400 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:06:21:43 +0000] "POST /api/v1/notes/ HTTP/1.1" 400 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:06:21:53 +0000] "POST /api/v1/notes/ HTTP/1.1" 400 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:06:21:56 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:06:21:57 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:06:21:57 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:07:43:08 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:07:43:08 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:07:43:08 +0000] "GET /api/v1/notes/ HTTP/1.1" 400 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:07:43:17 +0000] "POST /api/v1/users/login HTTP/1.1" 200 347 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:07:43:17 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 1320 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:07:43:17 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 1320 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:07:43:17 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:07:43:25 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:07:43:26 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:07:43:29 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
+info: ::1 - - [04/Mar/2025:07:43:30 +0000] "GET /api/v1/notes/ HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+
